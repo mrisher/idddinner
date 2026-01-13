@@ -68,9 +68,8 @@ export default function Home() {
             <div className="recipe-grid">
                 {filteredRecipes.map(recipe => (
                     <Link to={`/recipe/${recipe.slug}`} key={recipe.slug} className="recipe-card">
-                        <div className="card-img-placeholder">
-                            {/* Simple emoji logic based on simple heuristic */}
-                            {getEmoji(recipe.tags || [])}
+                        <div className="card-img-placeholder" style={{ background: getBackground(recipe.title) }}>
+                            {getEmoji(recipe)}
                         </div>
                         <div className="card-content">
                             <h3 className="card-title">{recipe.title}</h3>
@@ -93,16 +92,65 @@ export default function Home() {
     );
 }
 
-function getEmoji(tags: string[]) {
-    const t = tags.join(' ').toLowerCase();
-    if (t.includes('chicken')) return '🍗';
-    if (t.includes('beef')) return '🥩';
-    if (t.includes('pork')) return '🥓';
-    if (t.includes('fish') || t.includes('shrimp') || t.includes('salmon')) return '🐟';
-    if (t.includes('soup')) return 'soup';
-    if (t.includes('baking') || t.includes('cake') || t.includes('bread')) return '🍞';
-    if (t.includes('egg')) return '🍳';
-    if (t.includes('pasta')) return '🍝';
-    if (t.includes('rice')) return '🍚';
-    return '🍽️';
+// Deterministic gradient generator
+function getBackground(str: string) {
+    const gradients = [
+        'linear-gradient(135deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%)', // Pinky
+        'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)', // Minty Blue
+        'linear-gradient(120deg, #fccb90 0%, #d57eeb 100%)', // Sunset
+        'linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)', // Lavender Blue
+        'linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)', // Silver
+        'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', // Cloudy
+        'linear-gradient(to right, #4facfe 0%, #00f2fe 100%)', // Bright Blue
+        'linear-gradient(to right, #43e97b 0%, #38f9d7 100%)', // Greenish
+        'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', // Deep Purple
+        'linear-gradient(135deg, #F6D365 0%, #FDA085 100%)', // Citrus
+        'linear-gradient(135deg, #FF6B6B 0%, #556270 100%)', // Red Grey
+    ];
+
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+
+    const index = Math.abs(hash) % gradients.length;
+    return gradients[index];
+}
+
+function getEmoji(recipe: any) {
+    const t = (recipe.tags || []).join(' ').toLowerCase();
+    const title = recipe.title.toLowerCase();
+    const combined = t + ' ' + title;
+
+    if (combined.includes('pizza') || combined.includes('calzone')) return '🍕';
+    if (combined.includes('burger')) return '🍔';
+    if (combined.includes('taco') || combined.includes('fajita') || combined.includes('enchilada')) return '🌮';
+    if (combined.includes('soup') || combined.includes('chili') || combined.includes('stew') || combined.includes('chowder')) return '🥣';
+    if (combined.includes('salad')) return '🥗';
+    if (combined.includes('bread') || combined.includes('cornbread') || combined.includes('focaccia')) return '🥖';
+    if (combined.includes('cake') || combined.includes('torte') || combined.includes('pudding')) return '🍰';
+    if (combined.includes('cookie') || combined.includes('biscuit')) return '🍪';
+    if (combined.includes('pie') || combined.includes('tart')) return '🥧';
+    if (combined.includes('pasta') || combined.includes('lasagna') || combined.includes('spaghetti') || combined.includes('macaroni') || combined.includes('ziti') || combined.includes('noodle')) return '🍝';
+    if (combined.includes('rice') || combined.includes('risotto')) return '🍚';
+    if (combined.includes('chicken') || combined.includes('turkey')) return '🍗';
+    if (combined.includes('beef') || combined.includes('steak') || combined.includes('meatball') || combined.includes('brisket')) return '🥩';
+    if (combined.includes('pork') || combined.includes('sausage') || combined.includes('ham') || combined.includes('bacon')) return '🥓';
+    if (combined.includes('fish') || combined.includes('salmon') || combined.includes('cod') || combined.includes('tuna') || combined.includes('seafood')) return '🐟';
+    if (combined.includes('shrimp') || combined.includes('lobster') || combined.includes('crab')) return '🦐';
+    if (combined.includes('egg') || combined.includes('quiche') || combined.includes('frittata')) return '🍳';
+    if (combined.includes('lemon')) return '🍋';
+    if (combined.includes('apple')) return '🍎';
+    if (combined.includes('banana')) return '🍌';
+    if (combined.includes('pumpkin')) return '🎃';
+    if (combined.includes('potato')) return '🥔';
+    if (combined.includes('corn')) return '🌽';
+    if (combined.includes('carrot')) return '🥕';
+    if (combined.includes('broccoli')) return '🥦';
+    if (combined.includes('avocado')) return '🥑';
+    if (combined.includes('cheese') || combined.includes('queso')) return '🧀';
+    if (combined.includes('sandwich') || combined.includes('grilled cheese')) return '🥪';
+    if (combined.includes('curry')) return '🍛';
+
+    return '🥘'; // Generic pot of food as default instead of plate
 }

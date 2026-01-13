@@ -18,9 +18,16 @@ export default function Recipe() {
                 <header className="recipe-header">
                     <h1 className="recipe-title">{recipe.title}</h1>
                     <div className="recipe-meta">
-                        {recipe.source && <span>Source: {isUrl(recipe.source) ? <a href={recipe.source} target="_blank" rel="noopener noreferrer" style={{color:'var(--primary)'}}>Link</a> : recipe.source}</span>}
-                        {recipe.tags && recipe.tags.length > 0 && <span>• {recipe.tags.join(', ')}</span>}
+                        {recipe.tags && recipe.tags.length > 0 && <span>{recipe.tags.join(', ')}</span>}
                     </div>
+                    {recipe.source && isUrl(recipe.source) && (
+                         <div className="source-link">
+                            <a href={recipe.source} target="_blank" rel="noopener noreferrer" className="external-link-btn">
+                                Open Original Recipe ↗
+                            </a>
+                         </div>
+                    )}
+                    {recipe.source && !isUrl(recipe.source) && <div className="source-text">Source: {recipe.source}</div>}
                 </header>
 
                 {(recipe.ingredients && recipe.ingredients.length > 0) && (
@@ -38,6 +45,8 @@ export default function Recipe() {
                      <h2 className="section-title">Instructions</h2>
                      <ReactMarkdown>{recipe.body}</ReactMarkdown>
                 </section>
+
+
             </article>
         </div>
     );

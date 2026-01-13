@@ -15,7 +15,7 @@ export default function Layout() {
                 <Outlet />
             </main>
             <footer className="app-footer">
-                <p>&copy; {new Date().getFullYear()} IDDD LLC, a division of IDDD International Inc. GmbH</p>
+                <p>&copy; {new Date().getFullYear()} IDDD LLC<br/>A division of IDDD International Inc. GmbH</p>
             </footer>
         </div>
     );

@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍽️ IDDDinner Recipe Manager
 
-Currently, two official plugins are available:
+A static React application for browsing and searching your personal recipe collection.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js v20+
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Installation
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Running Locally
+```bash
+npm run dev
 ```
+
+### Building for Production
+```bash
+npm run build
+```
+
+## 📝 Adding New Recipes
+
+### Option A: Manual Markdown
+Create a new file in the `content/` directory (e.g., `content/my-tasty-dish.md`).
+Use the following format:
+
+```yaml
+---
+title: "My Tasty Dish"
+source: "https://example.com/recipe"
+tags: ["dinner", "chicken"]
+ingredients:
+  - "1 cup rice"
+  - "500g chicken"
+---
+
+### Instructions
+
+Step 1...
+```
+
+### Option B: Auto-Scraping External Links
+To automatically fetch content from a URL:
+
+1. Create a file in `content/` with just the metadata and the source link:
+   ```yaml
+   ---
+   title: "Amazing Stew"
+   source: "https://very-long-recipe-site.com/stew"
+   tags: ["soup"]
+   ---
+
+   Original Source: https://very-long-recipe-site.com/stew
+   ```
+2. Run the processing script:
+   ```bash
+   node process_recipes.cjs
+   ```
+3. The script will fetch the URL, extract the article content, and appended it to your markdown file automatically!
+
+**Note**: Scraped content is cached in `scrape_cache.json` to speed up subsequent runs.
+
+## 🛠️ Project Structure
+
+- `content/`: Markdown files for all recipes.
+- `recipes/`: Original source files (HTML exports, PDFs) used for initial import.
+- `src/`: React application source code.
+- `process_recipes.cjs`: Utility script for converting/scraping recipes.

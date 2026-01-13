@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mozilla/readability": "^0.6.0",
     "cheerio": "^1.1.2",
     "front-matter": "^4.0.2",
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
+    "jsdom": "^27.4.0",
     "pdf-parse": "^2.4.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

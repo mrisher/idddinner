@@ -20,9 +20,68 @@ try {
 const cheerio = require('cheerio');
 const TurndownService = require('turndown');
 const slugify = require('slugify');
+const { JSDOM } = require('jsdom');
+const { Readability } = require('@mozilla/readability');
 
 const turndownService = new TurndownService();
 const CONTENT_DIR = path.join(__dirname, 'content');
+
+// Simple cache for scraped URLs to avoid hitting sites repeatedly
+const CACHE_FILE = path.join(__dirname, 'scrape_cache.json');
+let urlCache = {};
+if (fs.existsSync(CACHE_FILE)) {
+    try {
+        urlCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+    } catch (e) {
+        console.error('Failed to load cache', e);
+    }
+}
+
+function saveCache() {
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(urlCache, null, 2));
+}
+
+async function scrapeUrl(url) {
+    if (!url || !url.startsWith('http')) return null;
+
+    if (urlCache[url]) {
+        console.log(`Using cached content for: ${url}`);
+        return urlCache[url]; // Returns markdown string
+    }
+
+    try {
+        console.log(`Scraping: ${url}`);
+        const response = await fetch(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
+
+        if (!response.ok) {
+            console.warn(`Failed to fetch ${url}: ${response.status}`);
+            return null;
+        }
+
+        const html = await response.text();
+        const doc = new JSDOM(html, { url });
+        const reader = new Readability(doc.window.document);
+        const article = reader.parse();
+
+        if (article && article.content) {
+            // Convert to MD
+            let md = turndownService.turndown(article.content);
+            // Append explicit attribution
+            md = `\n\n> **Scraped from [${article.siteName || 'Original Source'}](${url})**\n\n` + md;
+
+            urlCache[url] = md;
+            saveCache();
+            return md;
+        }
+    } catch (error) {
+        console.error(`Error scraping ${url}:`, error.message);
+    }
+    return null;
+}
 
 if (!fs.existsSync(CONTENT_DIR)) {
     fs.mkdirSync(CONTENT_DIR, { recursive: true });
@@ -73,46 +132,45 @@ async function processDinnerHtml() {
 
     const html = fs.readFileSync(filePath, 'utf8');
     const $ = cheerio.load(html);
-
-    // The structure seems to be a table with rows. Based on previous view_file:
-    // Row 1 is header.
-    // Cols: A=Rotation, B=Meal (Name + Link), C=Ingredients, D=Source, E=This Week, F=?, G=Saturday...
-    // We need to iterate over trs.
-
-    const rows = $('table.waffle tbody tr');
+    const rows = $('table tbody tr').toArray();
     let count = 0;
 
-    rows.each((i, row) => {
-        if (i === 0) return; // Skip header
+    for (const row of rows) {
+        // Skip header check if easier logic? or just use index logic
+        // The original code used index check in .each.
+        // We'll rely on the cells check.
 
         const tds = $(row).find('td');
-        // Column indices based on visual inspection of previous `view_file` output (A=0, B=1, etc)
-        // A: Rotation (idx 0)
-        // B: Meal (idx 1) -> contains link often
-        // C: Ingredients (idx 2)
-        // D: Source (idx 3)
+        if (tds.length < 3) continue;
 
         const mealTd = $(tds).eq(1);
         const mealName = cleanText(mealTd.text());
-        const mealLink = mealTd.find('a').attr('href');
+        if (!mealName || mealName.toLowerCase().includes('meal name')) continue;
 
+        const mealLink = mealTd.find('a').attr('href');
         const ingredientsText = cleanText($(tds).eq(2).text());
         const ingredients = ingredientsText.split(',').map(s => s.trim()).filter(s => s);
-
         const source = cleanText($(tds).eq(3).text());
-
-        if (!mealName) return;
 
         console.log(`Found recipe: ${mealName}`);
 
-        // TODO: content fetching from link (future step). For now, basic MD.
-        const body = `Original Source: ${source} \n\n Link: ${mealLink || 'N/A'}`;
+        let body = `Original Source: ${source} \n\n Link: ${mealLink || 'N/A'}`;
+
+        if (mealLink && mealLink.startsWith('http')) {
+             try {
+                const scraped = await scrapeUrl(mealLink);
+                if (scraped) {
+                    body = scraped;
+                }
+             } catch (err) {
+                 console.log(`Failed to scrape ${mealLink}`);
+             }
+        }
 
         const { slug, content } = generateMarkdown(mealName, mealName, mealLink || source, ingredients, ['dinner'], body);
-
         fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
         count++;
-    });
+    }
     console.log(`Processed ${count} recipes from dinner.html`);
 }
 
