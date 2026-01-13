@@ -1,5 +1,6 @@
 
 const fs = require('fs');
+const mammoth = require('mammoth');
 const path = require('path');
 // Polyfill DOMMatrix for pdf-parse/pdfjs-dist key dependency
 if (!global.DOMMatrix) {
@@ -400,11 +401,69 @@ async function processPdfs() {
     }
 }
 
+async function processPBatraRecipes() {
+    console.log('Processing PBatra Recipes...');
+    const dir = path.join(__dirname, 'recipes', 'PBatra Recipes');
+    if (!fs.existsSync(dir)) return;
+
+    const files = fs.readdirSync(dir);
+
+    for (const file of files) {
+        const filePath = path.join(dir, file);
+        const ext = path.extname(file).toLowerCase();
+        const baseName = path.basename(file, ext);
+
+        if (ext === '.docx') {
+            try {
+                const result = await mammoth.convertToHtml({path: filePath});
+                const html = result.value;
+                const md = turndownService.turndown(html);
+
+                const { slug, content } = generateMarkdown(
+                    baseName,
+                    baseName,
+                    'PBatra Recipes',
+                    [], // No ingredients extraction for now
+                    ['pbatra'],
+                    md,
+                    ''
+                );
+                fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
+                console.log(`Processed DOCX: ${baseName}`);
+            } catch (err) {
+                console.error(`Failed to process DOCX ${file}:`, err.message);
+            }
+        } else if (ext === '.pdf') {
+             try {
+                const dataBuffer = fs.readFileSync(filePath);
+                const data = await pdf(dataBuffer);
+                const text = data.text;
+
+                 const { slug, content } = generateMarkdown(
+                    baseName,
+                    baseName,
+                    'PBatra Recipes (PDF)',
+                    [],
+                    ['pbatra', 'pdf'],
+                    text,
+                    ''
+                );
+                fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
+                console.log(`Processed PDF: ${baseName}`);
+
+            } catch (e) {
+                console.error(`Failed to parse PDF ${file}`, e);
+            }
+        }
+    }
+}
+
 async function main() {
     await processDinnerHtml();
     await processMillRecipes();
     await processPdfExtract();
     await processPdfs();
+    await processPBatraRecipes();
 }
 
 main();

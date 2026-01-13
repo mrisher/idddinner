@@ -1,216 +1,79 @@
 ---
 title: "Pulled Pork"
 originalTitle: "Pulled Pork"
-source: "https://www.thespruceeats.com/instant-pot-pork-shoulder-4772380"
-tags: ["dinner", "chicken", "pork"]
-bg: "chicken"
+source: "PBatra Recipes"
+tags: ["pbatra"]
+bg: ""
 summary: ""
 ingredients:
-  - "4 lbs pork shoulder / boston butt"
-  - "onion"
-  - "garlic"
-  - "chicken stock"
+
 ---
 
+Pulled Pork
 
+1/5/19
 
-> **Scraped from [The Spruce Eats](https://www.thespruceeats.com/instant-pot-pork-shoulder-4772380)**
+Kids love this
 
-Easy Instant Pot Pork Shoulder for Quick Shredded Pork
-------------------------------------------------------
+left out spices I didn't have, was fine.
 
-Tender pulled pork in just over an hour, perfect for tacos, sandwiches, and more
+used 4 lbs butt, cooked for 3 hours, with 40 min open.
 
-By
+was tenderer than expected after 3 hours
 
-[Diana Rattray](https://www.thespruceeats.com/diana-rattray-3034029)
+outside super tender, inside a little chewy
 
-![Diana Rattray](https://www.thespruceeats.com/thmb/sVdpqKdduipZZN_KGJm8KQBjeZY=/200x200/filters:no_upscale():max_bytes(150000):strip_icc()/diana-rattray-3034029-214a20a1b27243df822f3a300f26dc59.jpg)
+kids don't like fat
 
-Southern-cuisine expert and cookbook author Diana Rattray has created more than 5,000 recipes and articles in her 20 years as a food writer.
+what to make with this?
 
-Updated on 10/25/25
+**Easy Oven-Cooked Pulled Pork Recipe**
+=======================================
 
-Tested by
+**Why It Works**
 
-[Danielle Centoni](https://www.thespruceeats.com/danielle-centoni-4788046)
+*   Homemade barbecue sauce has way better flavor than bottled versions.
+*   Cooking the pork shoulder in the Dutch oven allows the meat to slowly grow tender, while developing a bark-like crust on top.
+*   Adding only half of the barbecue sauce at the beginning keeps the pork from coming out too wet.
 
-![Danielle Centoni](https://www.thespruceeats.com/thmb/OtWQX4CxLquyHty-W-SzhMz5z28=/200x200/filters:no_upscale():max_bytes(150000):strip_icc()/danielle-centoni-4788046-cfe97c327d6143bebc545d172746bc4e.jpg)
+**Read more:** [**The Food Lab: How to Make the Best Oven-Cooked Pulled Pork**](https://www.seriouseats.com/2016/02/the-food-lab-how-to-make-the-best-oven-cooked-pulled-pork.html)
 
-Danielle is a James Beard Award-winning food writer and editor based in Portland, Oregon.
+*   **YIELD:**Serves 8 to 12
+*   **ACTIVE TIME:**30 minutes
+*   **TOTAL TIME:**6 hours
+*   **RATED:**
 
-(86)
+**Ingredients**
+---------------
 
-86 ratings
+*   1 tablespoon (6g) kosher salt
+*   5 tablespoons dark brown sugar (2 1/4 ounces; 65g)
+*   Large pinch cayenne pepper
+*   1 teaspoon (2g) ground coriander
+*   1/2 teaspoon (1g) ground fennel seed
+*   1 tablespoon (6g) paprika
+*   1 teaspoon (2g) ground cumin
+*   1 teaspoon (2g) freshly ground black pepper
+*   1 whole bone-in or boneless pork butt (5 to 7 pounds; 2.25 to 3kg)
+*   1 cup ketchup (8 ounces; about 225g)
+*   1/2 cup dark molasses (4 ounces; about 115g)
+*   2 tablespoons (30ml) Worcestershire sauce
+*   1 tablespoon (15ml) high-quality liquid smoke, such as [Wright's](http://www.amazon.com/Wrights-Liquid-Smoke-3-5-Oz/dp/B00BHNV8N2/?tag=se-recipe-ingredient-20) (see note)
+*   1 tablespoon (15ml) brown mustard
+*   2 teaspoons (10ml) hot sauce
+*   1/2 cup (120ml) cider vinegar, divided
+*   1 tablespoon (15ml) vegetable oil
+*   1 large onion, finely minced (about 6 ounces; 170g)
+*   1 cup (240ml) bourbon
+*   1/2 cup (120ml) [homemade](http://www.seriouseats.com/recipes/2014/10/best-rich-easy-white-chicken-stock-recipe.html)or store-bought low-sodium chicken stock or water
 
-*   Only a handful of common ingredients are required to make this versatile pork.
-*   Searing the pork shoulder first adds deep flavor and an appealing brown crust.
-*   The result is tender, easy-to-shred meat perfect for tacos or sandwiches.
+**Directions**
+--------------
 
-This simple recipe yields tender, shredded, melt-in-your-mouth pork—a perfect base for adding seasonings and ideal for making delicious sandwiches, tacos, and egg rolls. Normally, pork shoulder takes several hours in the oven or slow cooker, but when made in the Instant Pot, the pork cooks in just over an hour. You no longer need to save this dish for the weekend. Plus, using the sauté setting allows you to sear the meat first to create a deep brown crust, which enhances both flavor and texture.
-
-The Spruce Eats / Diana Rattray
-
-Pork shoulder is a tougher cut of meat compared to the rib or loin. However, this makes it more affordable. When cooked properly—typically "low and slow"—it becomes fork-tender, perfect for shredding and adding to a variety of dishes.
-
-Can You Overcook Pork in the Instant Pot?
------------------------------------------
-
-It is more common to undercook pork in the Instant Pot than overcook it. If the meat seems tough, it is most likely undercooked and needs additional time.  
-
-What You'll Need To Make This Pork Shoulder Recipe
-
-### Never Lose a Recipe Again!
-
-Love a Spruce Eats recipe? [With MyRecipes, your personal home for recipes](https://www.myrecipes.com/authentication/login?regSource=12cxnj&isMyrecipes=true&utm_source=thespruceeats&utm_medium=editorial), easily save and organize your favorites, plus thousands more, in one convenient place.
-
-"Cooking a pork shoulder in the Instant Pot makes it nearly effortless, and super fast, too. This recipe turned out very flavorful and was perfect for pulled pork sandwiches. I just mixed the meat with barbecue sauce after cooking and piled it on buns." —[Danielle Centoni](https://www.thespruceeats.com/danielle-centoni-4788046)
-
-![Instant Pot Pork Shoulder Tester Image](https://www.thespruceeats.com/thmb/kRUOWSf8kNJPcDNgqVozihWaAm8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/instant-pot-pork-shoulder-4772380-d-centoni-2021-edited-8cc00f8cbd224c61b61a04d2c0ae1d04.jpg)
-
-Keep Screen Awake
-
-*   4 pounds pork shoulder (Boston butt or picnic)
-    
-*   1 tablespoon vegetable oil
-    
-*   1 onion, cut into quarters
-    
-*   6 cloves garlic, finely chopped
-    
-*   1 teaspoon kosher salt, plus more to taste
-    
-*   1/2 teaspoon freshly ground pepper
-    
-*   1 cup chicken stock (unsalted or low sodium)
-    
-
-1.  Gather the ingredients.
-    
-    The Spruce Eats / Diana Rattray
-    
-2.  Slice **4 pounds pork shoulder** into 3 or 4 large chunks.
-    
-    The Spruce Eats / Diana Rattray
-    
-3.  Select the sauté function and heat **1 tablespoon vegetable oil** in the Instant Pot inner pot. When the oil is hot and shimmering, add the pork pieces. Cook for about 8 to 10 minutes, turning to brown on all sides.
-    
-    The Spruce Eats / Diana Rattray
-    
-4.  Add **1 onion (cut into quarters)**, **6 cloves garlic (finely chopped)**, **1 teaspoon kosher salt**, **1/2 teaspoon freshly ground pepper**, and **1 cup chicken stock (unslated or low sodium)**.
-    
-    The Spruce Eats / Diana Rattray
-    
-5.  Secure the lid on the pot and turn the steam release vent to the sealing position. Choose the pressure cook or manual button (high pressure) and set the timer for 60 minutes. When the time is up, let the pressure come down naturally for 10 to 20 minutes. 
-    
-    The Spruce Eats / Diana Rattray
-    
-6.  Using a slotted spoon, remove the pork to a bowl and set it aside to cool. Strain the liquids in the Instant Pot through a mesh strainer. Skim off the fat and discard the solids. Return the defatted liquid to the Instant Pot. Taste the liquid and adjust the seasonings.
-    
-    The Spruce Eats / Diana Rattray
-    
-7.  Shred the pork and return it to the Instant Pot. Select the sauté function and cook until the pork is hot.
-    
-    The Spruce Eats / Diana Rattray
-    
-8.  Transfer to a serving bowl. Alternatively, switch to the "keep warm" setting and serve the pork from the Instant Pot.
-    
-    The Spruce Eats / Diana Rattray
-    
-9.  Serve the pork in warm buns or taco shells with garnishes and enjoy.
-    
-    The Spruce Eats / Diana Rattray
-    
-
-### How to Store Pork Shoulder Recipe
-
-The shredded pork freezes beautifully, so don't worry if it seems like too much food. Freeze the leftover pork in well-wrapped small portions to enjoy in future meals and sandwiches.
-
-### Feeling Adventurous? Try This:
-
-*   **Mexican Pork Carnitas -** Add 1 1/2 teaspoons of dried oregano and 1 1/2 teaspoons of dried cumin to the pork along with the garlic and replace half of the chicken stock with orange juice. Serve in taco shells or soft tortillas with your favorite taco garnishes.
-*   **Southern-Style Pulled Pork -** Finish the pork by tossing it with barbecue sauce or North Carolina vinegar sauce and serve on soft, warmed buns with coleslaw and sliced dill pickles for fabulous pulled pork sandwiches.
-
-Nutrition Facts (per serving)
-
-690
-
-Calories
-
-50g
-
-Fat
-
-3g
-
-Carbs
-
-53g
-
-Protein
-
-×
-
-Nutrition Facts
-
-Servings: 8
-
-Amount per serving
-
-Calories
-
-690
-
-% Daily Value\*
-
-Total Fat 50g
-
-65%
-
-Saturated Fat 18g
-
-91%
-
-Cholesterol 204mg
-
-68%
-
-Sodium 386mg
-
-17%
-
-Total Carbohydrate 3g
-
-1%
-
-Dietary Fiber 1g
-
-3%
-
-Total Sugars 1g
-
-Protein 53g
-
-Vitamin C 2mg
-
-10%
-
-Calcium 71mg
-
-5%
-
-Iron 3mg
-
-18%
-
-Potassium 810mg
-
-17%
-
-_\*The % Daily Value (DV) tells you how much a nutrient in a food serving contributes to a daily diet. 2,000 calories a day is used for general nutrition advice._
-
-(Nutrition information is calculated using an ingredient database and should be considered an estimate.)
-
-Rate This Recipe
-
-I don't like this at all. It's not the worst. Sure, this will do. I'm a fan—would recommend. Amazing! I love it! Thanks for your rating!
+1.  Adjust oven rack to lower position and preheat oven to 300°F (150°C). Combine salt, sugar, cayenne pepper, coriander, fennel seed, paprika, cumin, and black pepper in a small bowl and mix until homogeneous. Season pork with 2 to 3 tablespoons spice mixture, making sure to rub it on all sides. Reserve remaining spice mixture.
+2.  Whisk together ketchup, molasses, Worcestershire sauce, liquid smoke, mustard, hot sauce, and half of cider vinegar in a medium bowl. Whisk in remaining spice mixture. Set aside.
+3.  Heat oil in a Dutch oven over medium-high heat until shimmering. Add pork and cook, turning occasionally, until well browned on all sides, about 5 minutes total. (Pork will brown fast because of the sugar. Do not let it burn.) Add onion and cook, stirring and scraping up browned bits from the bottom of the pan, until softened, about 2 minutes.
+4.  Turn off burner and add bourbon. Relight burner. Carefully ignite the bourbon with a long match or lighter. (Stand back and make sure there is nothing flammable above it; it will produce tall flames.) Let cook until flames die out, about 2 minutes.
+5.  Add half of sauce mixture and chicken stock or water. Cover Dutch oven, transfer to oven, and cook until pork is just starting to turn tender, about 4 hours. Remove lid and continue cooking until a knife or fork shows very little resistance when twisted inside the meat and a dark bark has formed, about 1 hour longer.
+6.  Transfer pork to a large bowl, reserving liquid in pot. Using a ladle, skim off excess fat and discard. Add reserved sauce and remaining vinegar to pot and whisk to combine. When pork is cool enough to handle, shred with two forks.
+7.  Transfer shredded pork to pot and toss with sauce. (If making ahead to serve over the course of several meals, store pork and sauce separately, adding sauce only to the portion you are serving immediately.) Season to taste with more salt, sugar, liquid smoke, or cider vinegar. Serve.
