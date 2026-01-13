@@ -6,5 +6,6 @@ export interface Recipe {
     tags?: string[];
     bg?: string;
     ingredients?: string[];
+    summary?: string;
     body: string;
 }

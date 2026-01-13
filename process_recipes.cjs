@@ -93,7 +93,8 @@ function cleanText(text) {
 }
 
 // Generate MD content with frontmatter
-function generateMarkdown(title, originalTitle, source, ingredients, tags, body) {
+// Generate MD content with frontmatter
+function generateMarkdown(title, originalTitle, source, ingredients, tags, body, summary) {
     const slug = slugify(originalTitle || title, { lower: true, strict: true });
     // Determine protein from ingredients (simple heuristic)
     const proteins = ['chicken', 'beef', 'pork', 'lamb', 'shrimp', 'fish', 'salmon', 'tofu', 'tempeh', 'lentils', 'beans', 'egg', 'turkey', 'sausage'];
@@ -113,6 +114,7 @@ originalTitle: "${originalTitle ? originalTitle.replace(/"/g, '\\"') : ''}"
 source: "${source ? source.replace(/"/g, '\\"') : ''}"
 tags: [${tags.map(t => `"${t}"`).join(', ')}]
 bg: "${foundProteins[0] || ''}"
+summary: "${summary ? summary.replace(/"/g, '\\"').replace(/\n/g, ' ') : ''}"
 ingredients:
 ${Array.isArray(ingredients) ? ingredients.map(i => `  - "${i.replace(/"/g, '\\"')}"`).join('\n') : ''}
 ---
@@ -155,19 +157,21 @@ async function processDinnerHtml() {
         console.log(`Found recipe: ${mealName}`);
 
         let body = `Original Source: ${source} \n\n Link: ${mealLink || 'N/A'}`;
+        let scrapedSummary = '';
 
         if (mealLink && mealLink.startsWith('http')) {
              try {
-                const scraped = await scrapeUrl(mealLink);
-                if (scraped) {
-                    body = scraped;
+                const result = await scrapeUrl(mealLink);
+                if (result) {
+                    body = result.md;
+                    scrapedSummary = result.excerpt;
                 }
              } catch (err) {
                  console.log(`Failed to scrape ${mealLink}`);
              }
         }
 
-        const { slug, content } = generateMarkdown(mealName, mealName, mealLink || source, ingredients, ['dinner'], body);
+        const { slug, content } = generateMarkdown(mealName, mealName, mealLink || source, ingredients, ['dinner'], body, scrapedSummary);
         fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
         count++;
     }
@@ -269,7 +273,7 @@ async function processMillRecipes() {
              body = turndownService.turndown(html);
         }
 
-        const { slug, content } = generateMarkdown(title, title, sourceUrl || 'The Modern Mill', ingredients, ['baking', 'mill'], body);
+        const { slug, content } = generateMarkdown(title, title, sourceUrl || 'The Modern Mill', ingredients, ['baking', 'mill'], body, '');
         fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
     }
     console.log(`Processed ${files.length} Mill recipes`);
@@ -347,7 +351,7 @@ async function processPdfExtract() {
                 i++; // Advance
             }
 
-            const { slug, content } = generateMarkdown(title, originalTitle, source, ingredients, tags, body);
+            const { slug, content } = generateMarkdown(title, originalTitle, source, ingredients, tags, body, '');
             fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
             console.log(`Extracted: ${title}`);
         }
@@ -384,7 +388,7 @@ async function processPdfs() {
             // Actually, better to save as "PDF Import - [Filename]" and let user know.
 
             const text = data.text;
-            const { slug, content } = generateMarkdown(path.basename(pdfPath, '.pdf'), path.basename(pdfPath, '.pdf'), 'PDF Import', [], ['pdf'], text);
+            const { slug, content } = generateMarkdown(path.basename(pdfPath, '.pdf'), path.basename(pdfPath, '.pdf'), 'PDF Import', [], ['pdf'], text, '');
             fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), content);
 
         } catch (e) {

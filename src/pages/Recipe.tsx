@@ -1,6 +1,7 @@
 
 import { useParams, Link, Navigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import { Helmet } from 'react-helmet-async';
 import { getRecipe } from '../lib/recipes';
 
 export default function Recipe() {
@@ -11,8 +12,21 @@ export default function Recipe() {
         return <Navigate to="/" replace />;
     }
 
+    // Generate a simple excerpt from the body (remove markdown chars)
+    const excerpt = recipe.summary || recipe.body
+        .replace(/[#*\[\]`]/g, '') // strip basics
+        .replace(/\n+/g, ' ') // collapse lines
+        .substring(0, 160) + '...';
+
     return (
         <div>
+            <Helmet>
+                <title>{recipe.title} | IDDDinner</title>
+                <meta name="description" content={excerpt} />
+                <meta property="og:title" content={recipe.title} />
+                <meta property="og:description" content={excerpt} />
+                <meta property="og:type" content="article" />
+            </Helmet>
             <Link to="/" className="back-link">← Back to Recipes</Link>
             <article className="recipe-detail">
                 <header className="recipe-header">

@@ -18,6 +18,7 @@ export const recipes: Recipe[] = Object.keys(modules).map((path) => {
         tags: attributes.tags || [],
         bg: attributes.bg,
         ingredients: attributes.ingredients || [],
+        summary: attributes.summary,
         body
     };
 });
