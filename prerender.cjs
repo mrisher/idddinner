@@ -76,6 +76,24 @@ function getEmoji(recipe) {
     return '🥘';
 }
 
+function getAllFiles(dirPath, arrayOfFiles) {
+    const files = fs.readdirSync(dirPath);
+
+    arrayOfFiles = arrayOfFiles || [];
+
+    files.forEach(function(file) {
+        if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+            arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles);
+        } else {
+            if (file.endsWith('.md')) {
+                arrayOfFiles.push(path.join(dirPath, "/", file));
+            }
+        }
+    });
+
+    return arrayOfFiles;
+}
+
 async function prerender() {
     if (!fs.existsSync(DIST_DIR) || !fs.existsSync(TEMPLATE_PATH)) {
         console.error('Build directory or index.html not found. Run npm run build first.');
@@ -87,34 +105,24 @@ async function prerender() {
     const { Resvg } = await import('@resvg/resvg-js');
 
     // Fetch fonts
-    // Fetch fonts
     const fontResponse = await fetch('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.8/files/inter-latin-700-normal.woff');
     if (!fontResponse.ok) {
         throw new Error(`Failed to fetch font: ${fontResponse.statusText}`);
     }
     const fontData = await fontResponse.arrayBuffer();
-    // Also fetch an emoji font if possible, or rely on system fallback/hope.
-    // Noto Color Emoji is huge (20MB+), satori might struggle or it might be slow.
-    // Let's try just the text font first. Satori often handles basic emojis if they are in the font, or we can use twemoji via satori options if needed.
-    // For now, let's assume system characters or successful fallback.
-    // Actually, satori needs an emoji font or logic to render emojis as images (graphemeImages).
-    // A simple hack is to use a font that supports emojis or use `satori`'s `graphemeImages` option?
-    // Let's try to just use Roboto Slab and see if the emoji renders (some environments have system fonts).
-    // If not, we might see squares.
-    // Safe bet: Fetch Noto Emoji just for the emoji? Or use a reliable small emoji font.
-    // Let's start with just Roboto Slab and if it fails (squares), we can iterate.
 
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
-    const files = fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'));
+    const files = getAllFiles(CONTENT_DIR);
 
     console.log(`Prerendering ${files.length} recipes...`);
 
-    for (const file of files) {
-        const content = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8');
+    for (const filePath of files) {
+        const content = fs.readFileSync(filePath, 'utf8');
         const { attributes, body } = frontMatter(content);
 
-        // Generate slug from filename
-        const slug = file.replace('.md', '');
+        // Generate slug consistent with recipes.ts
+        const relativePath = path.relative(CONTENT_DIR, filePath);
+        const slug = relativePath.replace('.md', '').split(path.sep).join('-');
 
         // Prepare metadata
         const title = `${attributes.title} | IDDDinner`;

@@ -8,7 +8,14 @@ const modules = import.meta.glob('../../content/**/*.md', { query: '?raw', impor
 export const recipes: Recipe[] = Object.keys(modules).map((path) => {
     const markdown = modules[path] as string;
     const { attributes, body } = fm<any>(markdown);
-    const slug = path.split('/').pop()?.replace('.md', '') || '';
+    
+    // Generate slug from relative path to ensure uniqueness across directories
+    // e.g., ../../content/Weld_Recipes/soup.md -> weld-recipes-soup
+    const slug = path
+        .replace(/^.*\/content\//, '')
+        .replace('.md', '')
+        .split('/')
+        .join('-');
 
     return {
         slug,

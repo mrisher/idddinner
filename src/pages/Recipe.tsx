@@ -1,16 +1,23 @@
 
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link, Navigate, useLocation } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import remarkBreaks from 'remark-breaks';
 import { Helmet } from 'react-helmet-async';
 import { getRecipe } from '../lib/recipes';
 
 export default function Recipe() {
     const { slug } = useParams<{ slug: string }>();
+    const location = useLocation();
     const recipe = getRecipe(slug || '');
 
     if (!recipe) {
         return <Navigate to="/" replace />;
     }
+
+    // Determine back link destination
+    console.log('Recipe location state:', location.state);
+    const searchString = location.state?.search;
+    const backLinkTo = searchString ? `/?${searchString}` : '/';
 
     // Generate a simple excerpt from the body (remove markdown chars)
     const excerpt = recipe.summary || recipe.body
@@ -27,7 +34,7 @@ export default function Recipe() {
                 <meta property="og:description" content={excerpt} />
                 <meta property="og:type" content="article" />
             </Helmet>
-            <Link to="/" className="back-link">← Back to Recipes</Link>
+            <Link to={backLinkTo} className="back-link">← Back to Recipes</Link>
             <article className="recipe-detail">
                 <header className="recipe-header">
                     <h1 className="recipe-title">{recipe.title}</h1>
@@ -57,7 +64,7 @@ export default function Recipe() {
 
                 <section className="instructions-section">
                      <h2 className="section-title">Instructions</h2>
-                     <ReactMarkdown>{recipe.body}</ReactMarkdown>
+                     <ReactMarkdown remarkPlugins={[remarkBreaks]}>{recipe.body}</ReactMarkdown>
                 </section>
 
 

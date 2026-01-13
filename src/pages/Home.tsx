@@ -1,12 +1,32 @@
 
-import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { useMemo } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 import Fuse from 'fuse.js';
 import { recipes } from '../lib/recipes';
 
 export default function Home() {
-    const [query, setQuery] = useState('');
-    const [activeFilter, setActiveFilter] = useState<string | null>(null);
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    const query = searchParams.get('q') || '';
+    const activeFilter = searchParams.get('f') || null;
+
+    const setQuery = (newQuery: string) => {
+        if (newQuery) {
+            searchParams.set('q', newQuery);
+        } else {
+            searchParams.delete('q');
+        }
+        setSearchParams(searchParams);
+    };
+
+    const setActiveFilter = (newFilter: string | null) => {
+        if (newFilter) {
+            searchParams.set('f', newFilter);
+        } else {
+            searchParams.delete('f');
+        }
+        setSearchParams(searchParams);
+    };
 
     // Get all unique tags for filter
     const allTags = useMemo(() => {
@@ -67,7 +87,12 @@ export default function Home() {
 
             <div className="recipe-grid">
                 {filteredRecipes.map(recipe => (
-                    <Link to={`/recipe/${recipe.slug}`} key={recipe.slug} className="recipe-card">
+                    <Link 
+                        to={`/recipe/${recipe.slug}`} 
+                        key={recipe.slug} 
+                        className="recipe-card"
+                        state={{ search: searchParams.toString() }}
+                    >
                         <div className="card-img-placeholder" style={{ background: getBackground(recipe.title) }}>
                             {getEmoji(recipe)}
                         </div>

@@ -20,6 +20,10 @@ body {
   line-height: 1.6;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -61,6 +65,7 @@ a {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+  box-sizing: border-box;
 }
 
 .app-footer {
@@ -302,6 +307,10 @@ a {
 }
 
 .instructions-section p {
+  margin-bottom: 1em;
+}
+
+.instructions-section li {
   margin-bottom: 1em;
 }
 
