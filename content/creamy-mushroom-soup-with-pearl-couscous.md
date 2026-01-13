@@ -4,6 +4,7 @@ originalTitle: "Creamy Mushroom Soup with Pearl Couscous"
 source: "https://must-love-garlic.com/creamy-mushroom-pearl-couscous-soup/"
 tags: ["dinner", "beef"]
 bg: "beef"
+summary: ""
 ingredients:
   - "shallot"
   - "garlic"

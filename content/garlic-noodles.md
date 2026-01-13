@@ -4,6 +4,7 @@ originalTitle: "Garlic Noodles"
 source: "https://www.tiktok.com/t/ZT8vL767K/"
 tags: ["dinner", "fish"]
 bg: "fish"
+summary: ""
 ingredients:
   - "Noodles (we like the wheat noodles from TJs); garlic"
   - "Parmesan cheese"

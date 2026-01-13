@@ -4,6 +4,7 @@ originalTitle: "Beef Udon"
 source: "https://khinskitchen.com/beef-udon/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

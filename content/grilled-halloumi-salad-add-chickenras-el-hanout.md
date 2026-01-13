@@ -4,6 +4,7 @@ originalTitle: "Grilled Halloumi Salad (add chicken+ras el hanout)"
 source: "https://themodernproper.com/grilled-halloumi-salad"
 tags: ["dinner", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "salad greens"
   - "halloumi"

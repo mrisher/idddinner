@@ -4,6 +4,7 @@ originalTitle: "Boursin Cheese Pasta"
 source: "https://www.tiktok.com/t/ZT8vLtvH3/"
 tags: ["dinner", "egg"]
 bg: "egg"
+summary: ""
 ingredients:
   - "Boursin cheese"
   - "pasta"

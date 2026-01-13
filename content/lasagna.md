@@ -4,6 +4,7 @@ originalTitle: "lasagna"
 source: "https://www.tastesoflizzyt.com/easy-lasagna-recipe/"
 tags: ["dinner", "beef", "sausage"]
 bg: "beef"
+summary: ""
 ingredients:
   - "no boil noodles"
   - "spaghetti sauce (2 jars?)"

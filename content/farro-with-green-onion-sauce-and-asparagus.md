@@ -4,6 +4,7 @@ originalTitle: "farro with green onion sauce and asparagus"
 source: "sn cooking p. 57"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "2 c farro"
   - "vegetable stock"

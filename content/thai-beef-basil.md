@@ -4,6 +4,7 @@ originalTitle: "Thai beef basil"
 source: "Well-fed weeknights, p.97"
 tags: ["dinner", "beef", "fish", "beans", "egg"]
 bg: "beef"
+summary: ""
 ingredients:
   - "ground beef"
   - "scallions"

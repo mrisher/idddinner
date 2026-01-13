@@ -4,6 +4,7 @@ originalTitle: "Fish - breaded"
 source: ""
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "tilapia"
   - "panko"

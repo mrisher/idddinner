@@ -4,6 +4,7 @@ originalTitle: "Lemon Shrimp"
 source: "https://blogchef.net/chinese-lemon-pepper-shrimp-recipe/#tasty-recipes-10101-jump-target"
 tags: ["dinner", "shrimp"]
 bg: "shrimp"
+summary: ""
 ingredients:
   - "2 lbs frozen shrimp (boom)"
   - "corn starch"

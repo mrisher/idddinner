@@ -4,6 +4,7 @@ originalTitle: "Detroit-style pizza"
 source: "https://www.seriouseats.com/detroit-style-pizza-recipe"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

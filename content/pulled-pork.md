@@ -4,6 +4,7 @@ originalTitle: "Pulled Pork"
 source: "https://www.thespruceeats.com/instant-pot-pork-shoulder-4772380"
 tags: ["dinner", "chicken", "pork"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "4 lbs pork shoulder / boston butt"
   - "onion"

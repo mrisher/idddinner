@@ -4,6 +4,7 @@ originalTitle: "Roasted cauliflower soup"
 source: "Weld Recipes.pdf"
 tags: ["soup"]
 bg: ""
+summary: ""
 ingredients:
   - "head cauliflower (approx. 2 lbs)"
   - "3 tbsp extra-virgin olive oil"

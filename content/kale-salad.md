@@ -4,6 +4,7 @@ originalTitle: "kale salad"
 source: "https://www.wellplated.com/winter-salad-kale-pomegranate-recipe/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "pomegranate"
   - "pecan halves"

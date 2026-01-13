@@ -4,6 +4,7 @@ originalTitle: "falafel"
 source: ""
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "pita"
   - "cuke"

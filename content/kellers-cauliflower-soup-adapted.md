@@ -4,6 +4,7 @@ originalTitle: "Keller's cauliflower soup - adapted"
 source: "https://bewitchingkitchen.com/tag/thomas-keller-cauliflower-soup/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

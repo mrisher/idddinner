@@ -46,7 +46,12 @@ async function scrapeUrl(url) {
 
     if (urlCache[url]) {
         console.log(`Using cached content for: ${url}`);
-        return urlCache[url]; // Returns markdown string
+        // Legacy cache check: if it's a string, wrap it
+        if (typeof urlCache[url] === 'string') {
+            return { md: urlCache[url], excerpt: '' };
+        }
+        // Assuming it's an object { md, excerpt }
+        return urlCache[url];
     }
 
     try {
@@ -73,9 +78,10 @@ async function scrapeUrl(url) {
             // Append explicit attribution
             md = `\n\n> **Scraped from [${article.siteName || 'Original Source'}](${url})**\n\n` + md;
 
-            urlCache[url] = md;
+            const result = { md, excerpt: article.excerpt || '' };
+            urlCache[url] = result;
             saveCache();
-            return md;
+            return result;
         }
     } catch (error) {
         console.error(`Error scraping ${url}:`, error.message);
@@ -195,82 +201,79 @@ async function processMillRecipes() {
         const html = fs.readFileSync(filePath, 'utf8');
         const $ = cheerio.load(html);
 
-        // Structure analysis of GFV Banana Bread:
-        // Rows:
-        // 0: Headers
-        // 1: Title (Cell A1 / index 0)
-        // 2: Cost headers
-        // 3: Ingredient headers (Each, Grams, Cups...)
-        // 4...: Ingredient rows. Col A (index 0) = Amount + Name (e.g., "4 small... bananas").
-        //       Wait, actually col A seems to be the full text description?
-        //       Let's check the view_file.
-        //       Row 4 (index 3): Col A: "4 small/med very overripe bananas..."
-        //       Col B: "Banana" (Item name for cost?)
-        //       So Col A is the human readable ingredient line.
-        //       We should collect Col A from row 4 until we hit "Recipe" or similar.
+        // Header Structure:
+        // Row 1 (Index 0): Title in first cell
+        // Row 4+ (Index 3+): Ingredients (one per row, in first cell)
+        // Instructions follow a row with "Recipe" in first cell
 
-        // Find row with "Recipe" in Col A -> Instructions start after that?
-        // Row 17 (index 16) Col A: "Recipe" -> Wait, cost summary?
-        // Row 18 (index 17): "Whisk together..." -> Instructions start here.
-        // Row 24 (index 23): "Link"
-        // Row 25 (index 24): URL
-
-        let title = cleanText($('table.waffle tbody tr').eq(0).find('td').eq(0).text());
-        if (!title) title = file.replace('.html', '');
+        let title = cleanText($('table tbody tr').eq(0).find('td').eq(0).text());
+        if (!title || title === '1') title = file.replace('.html', '');
 
         const ingredients = [];
         let instructions = [];
         let sourceUrl = '';
+        let isInIngredients = false;
+        let isInInstructions = false;
 
-        const rows = $('table.waffle tbody tr');
-        let state = 'start'; // start, ingredients, instructions
+        const rows = $('table tbody tr');
 
         rows.each((i, row) => {
-             const colA = $(row).find('td').eq(0);
-             const textA = cleanText(colA.text());
+            const colA = $(row).find('td').eq(0);
+            const textA = cleanText(colA.text());
 
-             // Row 0 is title usually
-             if (i === 0) {
-                 state = 'ingredients_search';
-                 return;
-             }
+            // Start looking for ingredients at row 4 (index 3)
+            if (i === 3) {
+                isInIngredients = true;
+            }
 
-             if (textA === 'Recipe') {
-                 state = 'instructions';
-                 return;
-             }
+            if (textA === 'Recipe' || textA === 'Instructions') {
+                isInIngredients = false;
+                isInInstructions = true;
+                return; // Skip this header row
+            }
 
-             if (textA === 'Link') {
-                 state = 'link';
-                 return;
-             }
+            if (textA === 'Link' || textA === 'Source') {
+                isInInstructions = false;
+                // Next rows might contain the link
+                return;
+            }
 
-             if (state === 'ingredients_search') {
-                 // Skip headers like "Cost", "Each", "Grams" etc.
-                 if (textA.startsWith('Cost') || textA === 'Each' || textA === '' || textA === 'A' || textA === '1') {
-                     // likely header or empty
-                 } else {
-                     // It's an ingredient line
-                     ingredients.push(textA);
-                 }
-             } else if (state === 'instructions') {
-                 if (textA) {
+            // Capture Data
+            if (isInIngredients) {
+                // If the line is very long, it's likely an instruction paragraph (heuristic)
+                if (textA.length > 80) {
+                    isInIngredients = false;
+                    isInInstructions = true;
+                    instructions.push(textA);
+                }
+                // Must have text, and not be a header row
+                else if (textA && !textA.match(/^cost/i) && !textA.match(/^(Each|Grams|Cups)/) && textA.length > 2) {
+                     // Check if it looks like a row number (just digits)
+                     if (!/^\d+$/.test(textA)) {
+                        ingredients.push(textA);
+                     }
+                }
+            } else if (isInInstructions) {
+                 if (textA && textA.length > 5) { // Avoid stray numbers
                      instructions.push(textA);
                  }
-             } else if (state === 'link') {
-                  const link = colA.find('a').attr('href');
-                  if (link) sourceUrl = link;
-                  else if (textA.startsWith('http')) sourceUrl = textA;
-             }
+            }
+
+            // Check for link anywhere
+            const href = colA.find('a').attr('href');
+            if (href && href.startsWith('http')) {
+                sourceUrl = href;
+            }
         });
 
-        // If instructions is empty, fallback to simple turndown
+        // Assemble Body
         let body = '';
         if (instructions.length > 0) {
             body = `### Instructions\n\n${instructions.join('\n\n')}`;
         } else {
-            // Fallback
-             body = turndownService.turndown(html);
+            // If parsing failed to find "Instructions" section, might be unstructured
+            // But let's NOT default to dumping the whole HTML anymore
+            body = 'No instructions extracted. See original source.';
         }
 
         const { slug, content } = generateMarkdown(title, title, sourceUrl || 'The Modern Mill', ingredients, ['baking', 'mill'], body, '');

@@ -4,6 +4,7 @@ originalTitle: "Lemony Bean Soup with Turkey"
 source: "https://cooking.nytimes.com/recipes/1021776-lemony-white-bean-soup-with-turkey-and-greens?smid=em-share"
 tags: ["dinner", "chicken", "beans", "turkey"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "onion"
   - "carrot"

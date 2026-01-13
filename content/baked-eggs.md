@@ -4,6 +4,7 @@ originalTitle: "Baked eggs"
 source: "Weld Recipes.pdf"
 tags: ["breakfast", "egg"]
 bg: "egg"
+summary: ""
 ingredients:
   - "12 eggs"
   - "Grated Parmesan or Asiago"

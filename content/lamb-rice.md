@@ -4,6 +4,7 @@ originalTitle: "lamb + rice"
 source: "Well-fed weeknights"
 tags: ["dinner", "lamb"]
 bg: "lamb"
+summary: ""
 ingredients:
   - "ground lamb"
   - "mint"

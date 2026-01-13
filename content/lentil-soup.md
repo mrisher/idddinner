@@ -4,6 +4,7 @@ originalTitle: "Lentil soup"
 source: "supernatural cooking p. 141"
 tags: ["dinner", "lentils"]
 bg: "lentils"
+summary: ""
 ingredients:
   - "1.24 c lentils"
   - "one onion"

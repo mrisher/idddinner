@@ -4,6 +4,7 @@ originalTitle: "pasta carbonara"
 source: "https://www.bonappetit.com/recipe/simple-carbonara"
 tags: ["dinner", "egg"]
 bg: "egg"
+summary: ""
 ingredients:
   - "pancetta (4oz)"
   - "bucatini"

@@ -4,6 +4,7 @@ originalTitle: "blackened miso salmon"
 source: "https://wanderingchickpea.com/2021/09/15/blackened-miso-salmon-with-creamy-coconut-cucumber-salad/"
 tags: ["dinner", "salmon"]
 bg: "salmon"
+summary: ""
 ingredients:
   - "salmon"
   - "white miso paste (or tahini)"

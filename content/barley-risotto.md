@@ -4,6 +4,7 @@ originalTitle: "barley risotto"
 source: "supernatural cooking p. 68"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "1 onion"
   - "2 shallots"

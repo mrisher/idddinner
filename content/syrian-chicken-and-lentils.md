@@ -4,6 +4,7 @@ originalTitle: "Syrian chicken and lentils"
 source: "https://vidarbergum.com/recipe/chicken-syrian-lentils-labneh-zaatar/#recipe"
 tags: ["dinner", "chicken", "lentils"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "chicken"
   - "zaatar"

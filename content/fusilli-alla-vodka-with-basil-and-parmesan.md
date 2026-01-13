@@ -4,6 +4,7 @@ originalTitle: "Fusilli alla Vodka with Basil and Parmesan"
 source: "2025_DinnerBook.pdf"
 tags: ["pasta"]
 bg: ""
+summary: ""
 ingredients:
   - "1 lb fusilli"
   - "1/4 cup olive oil"

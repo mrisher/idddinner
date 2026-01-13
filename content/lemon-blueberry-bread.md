@@ -4,6 +4,7 @@ originalTitle: "Lemon Blueberry Bread"
 source: "2025_DinnerBook.pdf"
 tags: ["breakfast", "egg"]
 bg: "egg"
+summary: ""
 ingredients:
   - "5 tbsp melted butter"
   - "1 cup sugar"

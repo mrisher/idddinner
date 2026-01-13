@@ -4,6 +4,7 @@ originalTitle: "Sesame Chicken"
 source: "Burma Superstar"
 tags: ["dinner", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "chicken breasts"
   - "corn starch"

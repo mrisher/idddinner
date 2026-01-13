@@ -4,6 +4,7 @@ originalTitle: "mayak eggs + rice"
 source: "https://whatgreatgrandmaate.com/mayak-eggs/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

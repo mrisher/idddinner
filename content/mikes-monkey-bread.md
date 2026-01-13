@@ -4,6 +4,7 @@ originalTitle: "Mike's Monkey Bread"
 source: "2025_DinnerBook.pdf"
 tags: ["breakfast"]
 bg: ""
+summary: ""
 ingredients:
   - "4 tins Pillsbury biscuits (or 2 tins Grands)"
   - "1/2 cup white sugar"

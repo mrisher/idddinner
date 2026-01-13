@@ -4,6 +4,7 @@ originalTitle: "GFV Banana Bread"
 source: "https://www.paleorunningmomma.com/paleo-banana-bread-no-sugar/#wprm-recipe-container-16672"
 tags: ["baking", "mill", "egg"]
 bg: "egg"
+summary: ""
 ingredients:
   - "4 small/med very overripe bananas or 3 larger ones, mashed well"
   - "4 large eggs room temp"

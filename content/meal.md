@@ -4,6 +4,7 @@ originalTitle: "Meal"
 source: "Source"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "Ingredients"
 ---

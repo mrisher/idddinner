@@ -4,6 +4,7 @@ originalTitle: "Kale, Italian Sausage Lasagna with Pumpkin Béchamel"
 source: "https://food52.com/recipes/38774-kale-and-italian-sausage-lasagna-with-pumpkin-bechamel"
 tags: ["dinner", "egg", "sausage"]
 bg: "egg"
+summary: ""
 ingredients:
   - "milk (4c)"
   - "pumpkin puree (2c)"

@@ -4,6 +4,7 @@ originalTitle: "shrimp stir fry"
 source: "Burma modification Kebat shrimp"
 tags: ["dinner", "shrimp"]
 bg: "shrimp"
+summary: ""
 ingredients:
   - "scallions"
   - "red peppers"

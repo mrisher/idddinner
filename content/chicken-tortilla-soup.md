@@ -4,6 +4,7 @@ originalTitle: "Chicken Tortilla Soup"
 source: "2025_DinnerBook.pdf"
 tags: ["soup", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "3-4 chicken breasts"
   - "6 cups chicken broth"

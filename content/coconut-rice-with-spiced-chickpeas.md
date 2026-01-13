@@ -4,6 +4,7 @@ originalTitle: "Coconut rice with spiced chickpeas"
 source: "https://makeitdairyfree.com/creamy-coconut-rice-with-spiced-chickpeas/#recipe"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

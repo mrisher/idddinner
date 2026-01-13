@@ -4,6 +4,7 @@ originalTitle: "white bean soup"
 source: "https://www.eatingwell.com/white-bean-soup-8411995"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

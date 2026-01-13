@@ -4,6 +4,7 @@ originalTitle: "Adeena Sussman's Chicken"
 source: "Tahini table p.191"
 tags: ["dinner", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "chicken"
   - "date syrup"

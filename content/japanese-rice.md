@@ -4,6 +4,7 @@ originalTitle: "Japanese rice"
 source: "https://www.justonecookbook.com/instant-pot-rice/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "rinse"
   - "soak"

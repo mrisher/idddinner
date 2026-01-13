@@ -4,6 +4,7 @@ originalTitle: "Pasta, Squash, kale, carmelized onion"
 source: "https://food52.com/recipes/7930-orecchiette-with-roasted-butternut-squash-kale-and-caramelized-red-onion"
 tags: ["dinner", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "Orecchiete pasta"
   - "kale"

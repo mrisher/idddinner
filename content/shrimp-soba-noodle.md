@@ -4,6 +4,7 @@ originalTitle: "shrimp soba noodle"
 source: "https://allwaysdelicious.com/shrimp-yakisoba/?fbclid=IwAR0EfIKf_ePQmgq91aQPoGeHe_yzk4AduhVlfcq4_QlKmammeeSs9xZXMPo"
 tags: ["dinner", "shrimp"]
 bg: "shrimp"
+summary: ""
 ingredients:
   - "shrimp (frozen)"
   - "yakisoba"

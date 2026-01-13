@@ -4,6 +4,7 @@ originalTitle: "asparagus pesto"
 source: "superntural cooking p. 108"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "asparagus bunch; spinach"
   - "fresh parmesan"

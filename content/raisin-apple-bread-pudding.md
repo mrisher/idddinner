@@ -4,6 +4,7 @@ originalTitle: "raisin apple bread pudding"
 source: "https://smittenkitchen.com/2009/11/raisin-studded-apple-bread-pudding/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
 
 ---

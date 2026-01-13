@@ -4,6 +4,7 @@ originalTitle: "Linguine, brocolli, ricotta"
 source: "https://cooking.nytimes.com/recipes/1019906-linguine-with-chickpeas-broccoli-and-ricotta?smid=url-share"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "linguine"
   - "brocollINI"

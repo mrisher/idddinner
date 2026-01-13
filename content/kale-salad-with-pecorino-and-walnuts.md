@@ -4,6 +4,7 @@ originalTitle: "Kale salad with pecorino and walnuts"
 source: "https://smittenkitchen.com/2013/08/kale-salad-with-pecorino-and-walnuts/"
 tags: ["dinner"]
 bg: ""
+summary: ""
 ingredients:
   - "kale"
   - "walnuts"

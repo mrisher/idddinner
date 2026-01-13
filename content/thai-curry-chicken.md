@@ -4,6 +4,7 @@ originalTitle: "Thai Curry Chicken"
 source: "https://cookieandkate.com/thai-red-curry-recipe/"
 tags: ["dinner", "chicken", "tofu", "egg"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "curry paste red"
   - "coconut cream"

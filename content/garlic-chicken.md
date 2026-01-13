@@ -4,6 +4,7 @@ originalTitle: "garlic chicken"
 source: "https://www.eatwell101.com/garlic-butter-chicken-with-parmesan-cauliflower-rice"
 tags: ["dinner", "chicken"]
 bg: "chicken"
+summary: ""
 ingredients:
   - "cauliflower rice"
   - "parmesan cheese"
