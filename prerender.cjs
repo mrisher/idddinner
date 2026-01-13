@@ -21,19 +21,12 @@ function prerender() {
         const content = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8');
         const { attributes, body } = frontMatter(content);
 
-        // Generate slug from filename or frontmatter
-        // Our app uses the filename as the slug in load logic usually,
-        // but let's check how we generate slugs.
-        // process_recipes.cjs uses slugify on title.
-        // Wait, the React app uses the filename as the slug?
-        // Let's check recipes.ts.
-        // "const slug = file.name.replace('.md', '');"
-        // Yes, filename is the slug.
-
+        // Generate slug from filename
         const slug = file.replace('.md', '');
 
         // Prepare metadata
         const title = `${attributes.title} | IDDDinner`;
+        // Basic markup strip for description
         const excerpt = (attributes.summary || body)
             .replace(/[#*\[\]`]/g, '')
             .replace(/\n+/g, ' ')
@@ -51,35 +44,34 @@ function prerender() {
         // Replace Title
         html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
 
-        // Replace OG Title
+        // Replace OG Tags (naive regex replacement based on what we put in index.html)
+        // Note: This matches the default tags we added to index.html
+
         html = html.replace(
             /<meta property="og:title" content=".*?" \/>/,
             `<meta property="og:title" content="${attributes.title}" />`
         );
 
-        // Replace Description
         html = html.replace(
             /<meta name="description" content=".*?" \/>/,
             `<meta name="description" content="${excerpt.replace(/"/g, '&quot;')}" />`
         );
 
-        // Replace OG Description
         html = html.replace(
             /<meta property="og:description" content=".*?" \/>/,
             `<meta property="og:description" content="${excerpt.replace(/"/g, '&quot;')}" />`
         );
 
-        // Replace OG Type
         html = html.replace(
             /<meta property="og:type" content=".*?" \/>/,
             `<meta property="og:type" content="article" />`
         );
 
-        // Write index.html
+        // Write index.html to the subfolder
         fs.writeFileSync(path.join(outDir, 'index.html'), html);
     });
 
-    console.log('Prerendering complete!');
+    console.log('Prerendering complete! Static files ready for social bots.');
 }
 
 prerender();
