@@ -23,7 +23,7 @@ export default function Recipe() {
             <Helmet>
                 <title>{recipe.title} | IDDDinner</title>
                 <meta name="description" content={excerpt} />
-                <meta property="og:title" content={recipe.title} />
+                <meta property="og:title" content={`IDDDinner | ${recipe.title}`} />
                 <meta property="og:description" content={excerpt} />
                 <meta property="og:type" content="article" />
             </Helmet>

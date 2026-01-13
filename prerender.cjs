@@ -49,7 +49,7 @@ function prerender() {
 
         html = html.replace(
             /<meta property="og:title" content=".*?" \/>/,
-            `<meta property="og:title" content="${attributes.title}" />`
+            `<meta property="og:title" content="IDDDinner | ${attributes.title}" />`
         );
 
         html = html.replace(
