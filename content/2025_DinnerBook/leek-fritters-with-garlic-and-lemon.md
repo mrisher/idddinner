@@ -2,40 +2,46 @@
 title: "Leek Fritters with Garlic and Lemon"
 originalTitle: "Leek Fritters with Garlic and Lemon"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "vegetarian"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Potato Leek Gratin 
-Servings: 6 | NY Times | 1 hour 30 min 
-2 tbsp unsalted butter, more for 
-greasing the pan 
-2 large leeks, trimmed and halved 
-lengthwise 
-1½ lbs peeled Yukon Gold potatoes 
-1 tsp kosher salt 
-½ tsp ground black pepper 
-2 thyme sprigs 
-1 cup heavy cream 
-1 fat garlic clove, finely chopped 
-1 bay leaf 
-¼ tsp freshly ground nutmeg 
-¾ cup Gruyère, grated 
-1.Heat oven to 350 degrees and butter a 2-quart gratin dish. Wash the leeks to 
-remove any grit and slice thinly crosswise. 
-2.Using a mandolin or sharp knife, slice the potatoes into rounds, ⅛-inch thick. 
-Toss with ¾ tsp salt and ¼ tsp pepper. Layer the rounds in the gratin dish. 
-3.Melt the 2 tbsp butter in a large skillet over medium heat. Add leeks, 
-remaining salt and pepper, and thyme. Cook, stirring, until leeks are tender 
-and golden, 5 to 7 minutes. Discard thyme and scatter the leeks over the 
-potatoes. 
-4.Add cream, garlic and bay leaf to the skillet, scraping up browned bits of 
-leeks from the bottom of the pan. Simmer gently for 5 minutes. Stir in 
-nutmeg. 
-5.Pour the cream over the leeks and potatoes and top with the Gruyère. Cover 
-with aluminum foil and transfer to the oven. Bake for 40 minutes, uncover 
-and bake until the cheese is bubbling and golden, 15 to 20 minutes longer. 
-Let cool slightly before serving.
+_Servings: 10 fritters | Smitten Kitchen_
+
+### Fritters
+
+4 large leeks, pale green and white parts only
+
+2 scallions, trimmed, halved lengthwise and thinly sliced 1/4 cup all-purpose flour
+
+1 tsp baking powder
+
+Freshly ground black pepper Pinch of cayenne
+
+1 egg
+
+Olive or vegetable oil, for frying
+
+### Garlic Lemon Cream
+
+1/2 cup sour cream
+
+1 garlic clove, minced
+
+1 tbsp freshly squeezed lemon juice Pinch freshly grated lemon zest
+
+Salt
+
+1.  Fill a bowl with cold water. Cut the leeks in half lengthwise and plunge them in the water, fanning the layers to get rid of any grit. Once they are clean, cut crosswise into 1/4-inch strips.
+2.  Bring a pot of salted water to a boil and cook the leeks for 3 to 4 minutes, until they are softened but not limp.
+3.  While they are cooking, whisk together the flour, baking powder, a few grinds of black pepper, ginger, and cayenne.
+4.  Drain the leeks and dry in a towel or cheesecloth. Make sure to get rid of as much water as possible.
+5.  Transfer the leeks to a large mixing bowl and add scallions. Add the flour mixture to the leeks and toss to coat. Add the egg and stir until it is incorporated with the mixture.
+6.  Line a baking sheet with aluminum foil and place in the oven. Heat the oven to 200 degrees.
+7.  In a large skillet, heat the oil over medium heat until it begins to shimmer. Scoop heaping tbsps of the batter into the skillet (I made 3 fritters at a time). Using a spatula, gently flatten the fritter. Cook for approximately 3 minutes, or until it is golden brown. If they are cooking too quickly, lower the heat. Flip fritters and cook until the other side is golden. Drain on paper towels and transfer to oven.
+8.  Repeat with remaining batter.
+9.  While they are in the oven, make the cream by whisking together all the ingredients and seasoning with a little salt.
+10.  Serve fritters immediately and top with a dollop of cream and a little additional lemon zest.

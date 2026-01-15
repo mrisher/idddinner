@@ -2,38 +2,34 @@
 title: "Pamela Salzman Granola"
 originalTitle: "Pamela Salzman Granola"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "breakfast"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-BEVERAGES 
-Angry and Bitter (aka Pegu) 
-Serves 1 
-1.5 oz Gin 
-1.5 oz Cointreau 
-0.5 oz Fresh lime juice 
-2-3 dashes of bitters 
-Shake with ice, strain into cocktail glass. Garnish with thin slice of lime 
-Sidecar 
-Serves 2 
-3.0 oz Cognac 
-2.0 oz Cointreau 
-1.5 oz Fresh lemon juice 
-Shake with ice, strain into Nick & Nora glass. Garnish with tan orange twist.  
-Paper plane 
-Serves 2 
-2 oz bourbon 
-2 oz lemon juice 
-2 oz Amaro Nonino Quintessentia 
-2 oz Aperol 
-Mix in cocktail shaker and pour in coupe glass 
-Manhattan 
-Serves 1 
-2 oz Rittenhouse rye 
-1 oz Cocchi Vermouth di Torino 
-2 dashes Angostura bitters 
-Garnish: 1 brandied cherry 
-Mix in cocktail shaker and pour in coupe or Nick & Nora glass
+3 cups old fashioned rolled oats (not instant or quick-cooking)
+
+½ cup unsweetened, dried coconut flakes
+
+⅓ cup raw pumpkin seeds
+
+⅓ raw sunflower seeds 2 tbsp sesame seeds
+
+1 tsp ground cinnamon
+
+¼ tsp fine grain sea salt
+
+¼ cup melted unrefined coconut oil
+
+⅓ cup 100% pure maple syrup
+
+¼ cup honey
+
+1 tsp pure vanilla extract 1 cup raw almonds
+
+1.  Preheat oven to 350 degrees. Line a rimmed baking sheet with unbleached parchment paper.
+2.  In a large bowl stir together the oats, coconut flakes, seeds, cinnamon and salt.
+3.  In a small bowl, whisk together the melted coconut oil, maple syrup, brown rice syrup and vanilla. It is really important to mix the oil and syrups so that everything is well blended otherwise the syrups may burn. Add the oil and syrup mixture to the oats and stir to coat well.
+4.  Transfer the oat mixture to the prepared pan. Bake for 25-35 minutes (ovens vary), stirring occasionally until golden brown. The mixture will not be crunchy yet. Add the chopped nuts and dried fruit to the pan and allow to cool. Transfer granola to an airtight container and store at room temperature or freeze.

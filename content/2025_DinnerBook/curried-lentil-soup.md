@@ -2,44 +2,33 @@
 title: "Curried Lentil Soup"
 originalTitle: "Curried Lentil Soup"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "soups"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-SIDES, SAUCES, AND APPETIZERS  
-Corn and Bean Salad 
-2 corn 
-1 avocado 
-1 can black beans 
-1 lime 
-1 tsp olive oil 
-salt & pepper 
-Optional: chopped bell peppers or 
-shallot, cayenne pepper 
-Grill the corn. Rinse and drain the beans. Chop the avocado. Mix in a bowl. Zest 
-and squeeze the lime, add a splash of oil and season with salt & pepper. 
-Squashed Cannellini Beans 
-Rosemary 
-Olive Oil 
-Garlic 
-Red Wine Vinegar 
-1 can Cannellini Beans 
-Pick the leaves off a couple of sprigs of rosemary and pound them gently in a 
-mortar and pestle with a little salt. Add a glug of extra-virgin olive oil and stir, 
-then put to one side. Fry two sliced cloves of garlic in a little olive oil until lightly 
-golden. Add 1 ¾ cups of drained and rinsed cannellini beans and continue to 
-simmer gently for seven minutes. Season the beans well with salt and pepper 
-and a swig of red wine vinegar, then mash them up using the back of a fork until 
-you have a coarse purée. Smear crostini with the bean purée and spoon your 
-rosemary oil over the top. 
-Quick Pickled Onions 
-1/2 c apple cider 
-1 tbsp sugar or maple syrup 
-1 1/2 tsp kosher salt 
-1 c water 
-1 red onion, thinly sliced 
-Whisk first four ingredients in pot and warm. Pour over onion in mason jar and 
-let sit until room temperature, then put in fridge. Good for 2 weeks.
+2 tbsp olive oil
+
+1 brown/yellow onion, diced
+
+2 large garlic cloves, minced
+
+1 (2 1/2”) piece of ginger, peeled and grated
+
+1 tbsp curry powder
+
+3/4 cup lentils, sorted and rinsed 1 (14.5 oz) can crushed tomatoes 1/2 cup chopped cilantro
+
+1 (14 oz) can of coconut milk Lime wedges (to serve)
+
+kosher salt and pepper, to taste
+
+In a large dutch oven, heat the olive oil over medium-low heat. Add the onion with a pinch of salt and cook until soft and translucent, about 10 minutes.
+
+Stir in the garlic, ginger and curry powder. Cook until fragrant, about a minute more, before stirring in the lentils to coat with the spices.
+
+Stir in 2 1/2 cups water, the tomatoes, cilantro, coconut milk, a healthy pinch of salt and some freshly ground pepper. Bring to a simmer over medium heat.
+
+Reduce the heat to low, cover, and simmer for about 25 minutes, stirring occasionally, until the lentils are soft but not mushy. Taste and adjust seasonings if needed before serving with the lime wedges.

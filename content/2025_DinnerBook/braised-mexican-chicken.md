@@ -2,33 +2,33 @@
 title: "Braised Mexican Chicken"
 originalTitle: "Braised Mexican Chicken"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "crockpot"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Sweet and Tangy Pulled Chicken 
-1 onion chopped 
-1/4 cup tomato paste 
-1 tbsp  chili powder 
-2 tsp canola oil 
-1 tsp paprika 
-1/8 tsp cayenne pepper 
-1/4 cup ketchup 
-2 tbsp molasses 
-4 boneless skinless chicken breasts 
-Salt and pepper 
-2 tbsp apple cider vinegar 
-2 tsp dijon mustard 
-1. Microwave onion, tomato paste, chili powder, oil, paprika, and cayenne in 
-bowl, stirring occasionally, until onion is softened, about 5 minutes; transfer to 
-slow cooker. Stir in ketchup and molasses. Season chicken with salt and pepper, 
-place in slow cooker, and turn to coat with sauce. Cover and cook until 
-chicken registers 160 degrees, 2 to 3 hours on low. 
-2. Transfer chicken to carving board, let cool slightly, then shred into bite-size 
-pieces using 2 forks; discard bones. 
-3. Stir vinegar and mustard into sauce. (Adjust sauce consistency with hot water 
-as needed.) Stir in shredded chicken and season with salt and pepper to taste. 
-Serve.
+Serves 4 – 6
+
+4 bone-in, skin-on chicken breasts salt and pepper
+
+2 tbsps butter
+
+1 yellow onion, diced
+
+1 green bell pepper, diced 4 garlic cloves, minced
+
+3 scallions, sliced
+
+1 jalapeño, ribs and seeds removed and minced
+
+½ tsp salt
+
+1 28-oz can whole tomatoes, drained and crushed by hand
+
+4 chipotle chilies in adobo, roughly chopped (1x 7oz can)
+
+1.  Rinse and dry the chicken breasts well, then season each one generously with salt and pepper.
+2.  Heat butter in a large sauté pan over medium high heat, add chicken and cook until nicely browned on each side (about 8-10 minutes total). Remove chicken to crockpot.
+3.  Add onion, pepper, garlic, scallions and jalapeño to the pan. Sauté the veggies over medium heat for 10 minutes, or until cooked and beginning to brown. Add veggies to crockpot along with the drained tomatoes, chopped chipotles, and ½ tsp salt.

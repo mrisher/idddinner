@@ -2,35 +2,31 @@
 title: "Ginger-Lime Chicken"
 originalTitle: "Ginger-Lime Chicken"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "poultry"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Salsa Verde Chicken Tacos 
-Time: 25 minutes | Real Simple 
-1 1/4 lb boneless skinless chicken 
-thighs 
-1/4  tsp kosher salt 
-1/4 tsp freshly ground black pepper 
-2 tbsp olive oil 
-16 oz salsa verde 
-12 corn tortillas 
-1 avocado, sliced  
-1/2 cup finely chopped red onion 
-1/2 cup fresh cilantro, chopped 
-2 oz cotija cheese, crumbled 
-Lime wedges, for serving 
-Sprinkle chicken with salt and pepper. Heat oil in a large pot or Dutch oven over 
-medium until shimmering. Add chicken; cook until golden brown, about 3 
-minutes per side. Add salsa verde. Reduce heat to medium-low; cook, partially 
-covered, stirring occasionally and flipping chicken halfway through, until a 
-thermometer inserted in thickest part of a chicken thigh reads 165°F, 6 to 8 
-minutes. Remove from heat and let cool for 5 minutes.  
-Transfer chicken to a large bowl and shred with 2 forks. Return chicken to pot 
-and toss with salsa verde until well coated.  
-Warm tortillas in microwave, over a gas flame on stove, or in a dry skillet. Top 
-tortillas with chicken, avocado, onion, cilantro, and cheese. Serve with lime 
-wedges, if desired.
+_Time: 15 minutes | New York Times_
+
+1½ to 2 lb boneless, skinless chicken thighs or breasts
+
+Kosher salt (such as Diamond Crystal) and black pepper
+
+⅓ cup mayonnaise
+
+1 tbsp lime zest (2 limes), plus lime wedges, for serving
+
+1 tbsp finely grated fresh ginger (~3- inch piece of peeled ginger)
+
+Pat the chicken dry and season all over with 1½ tsps salt. In a medium bowl, stir together the mayonnaise, lime zest and ginger; season with salt and pepper.
+
+Add the chicken to the mayonnaise mixture and stir to coat. (The chicken can sit in the marinade for up to 8 hours in the fridge. Let come to room temperature before cooking.)
+
+To grill: Heat a grill to medium-high. Grill the chicken over direct heat until cooked through and juices run clear, about 5 minutes per side for thighs and about 4 minutes per side for breasts, turning as necessary to avoid burning.
+
+To cook in a skillet: Heat a large skillet over medium-high. Cook the chicken until juices run clear, about 5 minutes per side for thighs and about 4 minutes per side for breasts.
+
+Serve chicken with lime wedges, for squeezing on top.

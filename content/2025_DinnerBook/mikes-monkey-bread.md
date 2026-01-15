@@ -2,38 +2,25 @@
 title: "Mike’s Monkey Bread"
 originalTitle: "Mike’s Monkey Bread"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "breakfast"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Pamela Salzman Granola 
-3 cups old fashioned rolled oats (not 
-instant or quick-cooking) 
-½ cup unsweetened, dried coconut 
-flakes 
-⅓ cup raw pumpkin seeds 
-⅓ raw sunflower seeds 
-2 tbsp sesame seeds 
-1 tsp ground cinnamon 
-¼ tsp fine grain sea salt 
-¼ cup melted unrefined coconut oil 
-⅓ cup 100% pure maple syrup 
-¼ cup honey 
-1 tsp pure vanilla extract 
-1 cup raw almonds 
-1.Preheat oven to 350 degrees. Line a rimmed baking sheet with unbleached 
-parchment paper. 
-2.In a large bowl stir together the oats, coconut flakes, seeds, cinnamon and 
-salt. 
-3.In a small bowl, whisk together the melted coconut oil, maple syrup, brown 
-rice syrup and vanilla. It is really important to mix the oil and syrups so that 
-everything is well blended otherwise the syrups may burn. Add the oil and 
-syrup mixture to the oats and stir to coat well. 
-4.Transfer the oat mixture to the prepared pan. Bake for 25-35 minutes (ovens 
-vary), stirring occasionally until golden brown. The mixture will not be crunchy 
-yet. Add the chopped nuts and dried fruit to the pan and allow to cool. 
-Transfer granola to an airtight container and store at room temperature or 
-freeze.
+makes a bundt pan or a 9" X 9" casserole dish
+
+4 tins Pillsbury biscuits or 2 tins of Pillsbury Grands
+
+½ cup white sugar
+
+½ tsp ground cinnamon
+
+1½ sticks of butter 1 cup brown sugar
+
+1 tbsp ground cinnamon
+
+Preheat oven to 350 degrees. Grease up a bundt pan or a 9" X 9" casserole dish. Pam will do, but butter is better. Just pop open tins and cut biscuits them into quarters. Put those quarter pieces into a bag or bowl with white sugar and 1 tsp of cinnamon, shake it all about, and transfer to your dish.
+
+Put ¾-cup butter (about 1½ sticks), brown sugar, and 1 tbs of cinnamon into a sauce pan and melt them down into a smooth, uniform caramel sauce. Pour your sauce over the biscuits; it will be a lot of sauce. Bake for about 30 minutes (or until it stops expanding and the caramel sets on the outside). Wait at least 10 minutes, then dump out of your dish onto a plate and serve! If you don't wait, you'll have monkey mess on your hands.

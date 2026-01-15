@@ -2,29 +2,33 @@
 title: "Lemon Ricotta Tart with Blueberries"
 originalTitle: "Lemon Ricotta Tart with Blueberries"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "dessert"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Vanilla Bean Rice Pudding 
-1½ cups water 
-¾ cup basmati rice 
-¼ tsp salt 
-3 cups whole milk 
-1 cup heavy whipping cream 
-½ cup sugar 
-1/2 vanilla bean, split lengthwise 
-Bring 1 1/2 cups water, rice, and salt to simmer in heavy large saucepan over 
-medium-high heat. Reduce heat to low; cover. Simmer until water is absorbed, 
-about 10 minutes. Add milk, cream, and sugar. Scrape in seeds from vanilla 
-bean; add bean. Increase heat to medium; cook uncovered until rice is tender 
-and mixture thickens slightly to a soft, creamy texture, stirring occasionally, 
-about 35 minutes. 
-Remove pudding from heat and discard vanilla bean. Divide pudding evenly 
-among small bowls. Serve warm or press plastic wrap directly onto surface of 
-each pudding and chill thoroughly. DO AHEAD: Pudding can be made 2 days 
-ahead. Keep refrigerated. 
-61
+1 box Nilla (12-ounce box)
+
+6 tbsp unsalted butter, melted 2 cups ricotta cheese
+
+4 ounces cream cheese, softened 2 large eggs
+
+⅓ cup granulated sugar
+
+2 tbsp finely grated lemon zest (from
+
+2 lemons)
+
+3 tbsp lemon juice
+
+1 carton fresh blueberries washed
+
+Preheat oven 375 degrees. In a food processor, pulse vanilla wafers until finely ground (to yield 2 cups). Add butter and pulse until crumbs are evenly moistened.
+
+Transfer crumb mixture to a 9-inch springform pan. Press firmly into the bottom and up the sides. Place pan on a baking sheet; bake crust until lightly browned and set, 10 to 12 minutes. Remove from oven and place on cooling rack
+
+In clean food processor, blend ricotta, cream cheese, eggs, granulated sugar, and lemon zest and juice until smooth. Pour into hot crust in pan; bake until filling is set and browned in spots, 30 to 35 minutes. Cool completely on a wire rack.
+
+Cool the tart completely on a cooling rack. Once cooled, top with blueberries, slice, and serve.

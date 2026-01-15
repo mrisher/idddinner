@@ -2,50 +2,29 @@
 title: "Balsamic-Herb Flank Steak"
 originalTitle: "Balsamic-Herb Flank Steak"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "meat"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-PORK 
-Pork and Soba Noodle Salad 
-Salt and pepper 
-6 oz soba noodles 
-3 tbsp hoisin sauce 
-2 tbsp fresh lime juice  
-1 tbsp olive oil 
-3 carrots, peeled & shredded 
-1 red bell pepper, cut into strips 
-3 scallions, sliced 
-Cooked pork tenderloin (see below) 
-Red pepper flakes  
-1.Large pot of boiling salted water, cook noodles according to package; drain. 
-2.In large bowl, whisk together hoisin, lime juice, and oil; season with salt and 
-pepper and scallion; toss. 
-3.Thinly slice pork; cut each slice in half. Add to bowl with boodles; toss well. 
-Serve at room temperature or chilled, garnished with pepper flakes and lime 
-wedges, if desired. 
-3 pork tenderloins 
-1/2 cup soy sauce 
-1/2 cup dry sherry 
-1/2 cup honey 
-1/4 cup rice wine vinegar 
-1/4 cup vegetable oil 
-2 tbsp fresh orange juice 
-1 1/2 tbsp minced fresh rosemary 
-1 tbsp minced shallot 
-1 tsp minced fresh ginger 
-4.Trim tenderloin of fat and silver skin. Place in shallow baking dish. Combine 
-soy sauce, sherry, honey, vinegar, oil, and OJ in medium bowl. Whisk until 
-well blended. Stir in rosemary, shallots & ginger.  
-5.Pour mixture over tenderloin. Cover with plastic wrap and marinate for 2 
-hours. 
-6.Preheat outdoor grill or indoor grill pan. Remove pork from marinade, shake 
-off excess. Put on grill and cook, turning frequently for about 18 min or until 
-thermometer in thicket part reads 145 degrees.  
-7.Transfer to platter and cool for 10 min until carving 
-8.Optional: meanwhile place marinade in small saucepan over medium heat 
-and bring to simmer. Simmer for 10 min or until slightly thickened. Slice pork 
-and spoon marinade over pork.
+1½ lb grass-fed beef flank steak or skirt steak
+
+1 tbsp fresh thyme leaves, chopped Ground black pepper
+
+Olive oil, for brushing the steak Sea salt, for seasoning steak
+
+### Post-Marinade
+
+2 tbsp balsamic vinegar (not aged balsamic)
+
+2 tbsp extra-virgin olive oil
+
+2 large garlic cloves, minced Sea salt
+
+1.  Season the flank steaks with the thyme and black pepper. Cover and refrigerate overnight or all day.
+2.  Prepare the post-marinade: Whisk together vinegar, olive oil, garlic, and a pinch of sea salt and set aside at room temperature.
+3.  Preheat a grill to medium heat, about 400 F. Brush both sides of meat with olive oil and sprinkle with sea salt.
+4.  Grill the meat until desired the doneness is achieved, 3 to 4 minutes on each side for medium, turning with tongs, not a fork. Transfer to a serving platter and pour the post-marinade (below) over the meat. Cover with aluminum foil and allow to rest for 5 to 10 minutes.
+5.  Very important: Transfer the meat to a cutting board and slice thinly against the grain, which means you are cutting in the opposite direction of the lines in the meat. If you cut with the grain. Place back on the platter and serve.

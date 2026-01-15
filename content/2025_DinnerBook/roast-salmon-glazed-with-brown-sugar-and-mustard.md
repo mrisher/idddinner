@@ -2,22 +2,22 @@
 title: "Roast Salmon Glazed with Brown Sugar and Mustard"
 originalTitle: "Roast Salmon Glazed with Brown Sugar and Mustard"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "fish"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Foolproof Cold Oven Salmon 
-Fresh Salmon 
-1 tbsp Lemon pepper seasoning 
-1 tbsp olive oil  
-2 Lemons 
-1.Drizzle olive oil on top of parchment lined baking tray, place the 
-salmon on top and sprinkle a little more oil on top of the salmon and 
-then shake the lemon pepper seasoning, just cover salmon evenly. 
-2.Slice the lemons and place on top. 
-3.Place in a cold oven and then turn the heat to 400 degrees and timer 
-to 25 min 
-4.When the timer goes off after 25 minutes, it’s done!
+Salmon fillets, preferably wild or farmed organically
+
+Dijon mustard
+
+1.  Heat your oven to 400 degrees.
+
+Brown sugar
+
+Salt and black pepper
+
+1.  Make a mixture of Dijon mustard and brown sugar to the degree of spicy-sweetness that pleases you. Salt and pepper the salmon fillets.
+2.  Place the salmon fillets skin-side down on a lightly oiled, foil-lined baking sheet. Slather the tops of the fillets with the mustard and brown sugar glaze and slide them into the top half of your oven. Roast for about 12 minutes, then serve.

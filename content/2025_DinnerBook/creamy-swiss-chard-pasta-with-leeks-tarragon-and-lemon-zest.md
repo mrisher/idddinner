@@ -2,51 +2,34 @@
 title: "Creamy Swiss Chard Pasta With Leeks, Tarragon and Lemon Zest"
 originalTitle: "Creamy Swiss Chard Pasta With Leeks, Tarragon and Lemon Zest"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "pizza and pasta"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Ina’s Turkey Lasagna  
-Serves 8 | Total: 1 hr 20 min | Prep: 50 min | Cook: 30 min 
-2 tablespoons olive oil 
-1 cup chopped yellow onion (1 onion) 
-2 garlic cloves, minced 
-1 1/2 lbs sweet Italian turkey sausage, 
-casings removed 
-One 28-oz can crushed tomatoes  
-One 6-ounce can tomato paste 
-1/4 cup chopped fresh flat-leaf 
-parsley, divided 
-1/2 cup chopped fresh basil leaves 
-2 teaspoons kosher salt 
-3/4 tsp freshly ground black pepper 
-1/2 pound lasagna noodles 
-15 ounces ricotta cheese 
-3 to 4 oz creamy goat cheese, 
-crumbled 
-1 cup grated Parmesan, plus 1/4 cup 
-for sprinkling 
-1 extra-large egg, lightly beaten 
-1 pound fresh mozzarella, thinly sliced 
-1.Preheat the oven to 400 degrees F.  
-2.Heat the olive oil in a large (10 to 12-inch) skillet. Add the onion and cook 
-for 5 minutes over medium-low heat, until translucent. Add the garlic and 
-cook for 1 more minute. Add the sausage and cook over medium-low 
-heat, breaking it up with a fork, for 8 to 10 minutes, or until no longer 
-pink. Add the tomatoes, tomato paste, 2 tablespoons of the parsley, the 
-basil, 1 1/2 teaspoons of the salt, and 1/2 teaspoon pepper. Simmer, 
-uncovered, over medium-low heat, for 15 to 20 minutes, until thickened.  
-3.Meanwhile, fill a large bowl with the hottest tap water. Add the noodles 
-and allow them to sit in the water for 20 minutes. Drain.  
-4.In a medium bowl, combine the ricotta, goat cheese, 1 cup of Parmesan, 
-the egg, the remaining 2 tablespoons of parsley, remaining 1/2 teaspoon 
-salt, and 1/4 teaspoon pepper. Set aside.  
-5.Ladle 1/3 of the sauce into a 9 by 12 by 2-inch rectangular baking dish, 
-spreading the sauce over the bottom of the dish. Then add the layers as 
-follows: half the pasta, half the mozzarella, half the ricotta, and one 1/3 of 
-the sauce. Add the rest of the pasta, mozzarella, ricotta, and finally, sauce. 
-Sprinkle with 1/4 cup of Parmesan. Bake for 30 minutes, until the sauce is 
-bubbling.
+¾ lbs green Swiss chard (1 large bunch), washed and trimmed
+
+2 large leeks (10 to 12 ounces each) 5 tbsp unsalted butter
+
+½ cup panko bread crumbs Kosher salt and black pepper 3 tbsp nutritional yeast
+
+3 garlic cloves, thinly sliced
+
+2 tsp fresh thyme leaves
+
+2 cups chicken or vegetable stock 1 cup heavy cream
+
+16 oz linguine or fettuccine
+
+¾ cup finely grated Parmesan Fresh tarragon leaves, for garnish 1 lemon, for garnish
+
+1.  Bring a large pot of salted water to a boil. Prepare the chard: Tear the leaves off the stems, separating the leaves and stems. Thinly slice the stems, then coarsely tear the leaves into bite-size pieces. Set both aside in separate bowls.
+2.  Prepare the leeks: Trim off the bottom and the dark green portion at the top, halve the remaining white and pale green portion lengthwise, then thinly slice them crosswise. Wash and drain the sliced leeks. Set aside.
+3.  Prepare the bread crumbs: In a large skillet, melt 2 tbsps butter over medium. Add the panko, season lightly with salt and generously with pepper, and cook, stirring occasionally, until golden and toasted, 3 to 4 minutes. Stir in nutritional yeast, then transfer to a paper towel-lined plate.
+4.  Wipe out the skillet. Add the remaining 3 tbsps butter and melt over medium-high. Add the leeks, chard stems, garlic and thyme, season with salt and pepper, and cook, stirring occasionally, until leeks start to wilt and soften, about 5 minutes. Add the torn chard, season with salt and pepper, and cook, stirring, until just wilted, 2 minutes.
+5.  Add the stock and heavy cream, and boil over high until thickened, about 10 minutes.
+6.  Once the mixture is simmering, add the pasta to the pot of boiling water and cook until al dente. Drain pasta.
+7.  Transfer chard mixture to the empty pasta pot. Stir in the cooked pasta, then sprinkle with the Parmesan, stirring vigorously to melt it into the sauce. Season to taste with salt and pepper.
+8.  Divide among shallow bowls or plates. Sprinkle generously with the prepared bread crumbs, top with tarragon and grate fresh lemon zest on top. Serve immediately.

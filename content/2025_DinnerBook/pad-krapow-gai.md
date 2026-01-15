@@ -2,28 +2,35 @@
 title: "Pad Krapow Gai"
 originalTitle: "Pad Krapow Gai"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "poultry"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-MEAT 
-Grilled Marinated Skirt Steak 
-Serves 4-8 
-4 tbsp lime juice 
-2 tbsp soy sauce 
-1 tsp minced garlic 
-2 tsp fresh minced ginger 
-1 tsp sugar 
-salt & pepper  
-1 flank steak (2-2.5 lbs) 
-Preheat oven to 500 °F. 
-Marinate steak about 30 minutes (if longer than 1 hr, refrigerate).  Remove from 
-marinade; dry well with paper towels.  Grill or broil 3-4 minutes per side or until 
-nicely brown.  (If in oven place skillet on stove heat until almost smoking 4-5 
-minutes on med-hi heat, sprinkle surface with coarse salt and then put on steaks 
-and place skillet at the very bottom of oven.)  Move meat to cooler part of grill 
-or oven for another 2 minutes per side (125 °F meat temp).  Let rest five minutes 
-before cutting.
+2-4 servings | NY Times | 15 min
+
+¼ cup vegetable oil
+
+1 lb ground chicken
+
+2 tsp minced garlic (from 2 cloves) 2 tsp granulated sugar
+
+1 tsp minced fresh chile
+
+8 oz green beans, trimmed and cut into ½-inch pieces (about 1½ cups)
+
+3 tbsp oyster sauce 2 tbsp fish sauce
+
+1 tbsp Thai light soy sauce Splash of rice vinegar
+
+1 cup loosely packed basil leaves Ground pepper, to taste Steamed jasmine rice, for serving
+
+Heat a wok or large nonstick skillet over medium-high, then swirl in the oil. Once the oil is shimmering, add the ground chicken and cook, actively breaking the chicken up into small pieces, until it is mostly cooked, about 6 minutes.
+
+Stir in the garlic, sugar and chile until evenly distributed and fragrant, about 2 minutes, then add the green beans, oyster sauce, fish sauce and Thai seasoning, and cook, stirring constantly, until the chicken is fully cooked, the green beans are crisp-tender and the krapow is glossy, about 2 minutes.
+
+Remove from heat, add the basil and a dash of white pepper and toss to combine. If the sauce seems to cling too tightly to the mixture, add 1 to 2 tbsp of water to make it loose and glossy.
+
+Serve over rice, and top with a crispy fried egg, if desired. Serve with additional Thai seasoning to sprinkle on top, according to taste.

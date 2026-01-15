@@ -2,55 +2,42 @@
 title: "Mustard Milanese with an Arugula Fennel Salad"
 originalTitle: "Mustard Milanese with an Arugula Fennel Salad"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "poultry"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Maple BBQ Drumsticks  
-8 chicken drumsticks (about 
-2 lbs total), patted 
-dry 
-Salt and pepper 
-Maple Barbecue Sauce 
-(recipe follows) 
-1.Preheat the oven to 425°F, with one rack in the middle and another so 
-that the chicken will be 3 to 4 inches from the broiler. Put the chicken on a 
-sheet pan (lined with foil for easier cleanup, if you like). Season with salt 
-and pepper and arrange top-side up and in alternating directions. Roast 
-on the middle rack until golden brown, about 20 minutes. 
-2.Brush some of the Maple Barbecue Sauce on the drumsticks, then flip 
-them over and brush the other side. Roast until cooked through, about 10 
-minutes more. Remove from the oven and preheat the broiler. Flip the 
-drumsticks over again, brush with more sauce, and broil on the upper rack 
-until the sauce caramelizes, keeping a close eye on them to prevent 
-burning, about 1 minute. Serve hot or at room temperature. 
-1 tbsp olive oil 
-1 small yellow onion, finely 
-chopped 
-1 garlic clove, minced 
-1 tsp salt 
-Pinch of cayenne pepper 
-½ tsp turmeric 
-⅔ cup ketchup 
-2 tbsp maple syrup 
-½ cup apple cider vinegar 
-2 tbsp whole-grain 
-mustard 
-1 tbsp Worcestershire 
-sauce 
-Grated zest and juice of 1 lime 
-Pepper 
-3.In a medium saucepan, heat the oil over medium-low heat. Add the 
-onion, garlic, and salt and cook until the onion is softened, about 8 
-minutes. Add the cayenne and turmeric and cook, stirring, until fragrant, 
-about 30 seconds. Add the ketchup, maple syrup, vinegar, mustard, 
-Worcestershire sauce, and lime zest and stir to combine 
-4.Bring the sauce to a simmer, then season with lime juice, salt, and pepper. 
-If the sauce needs more acid, add more vinegar or lime juice; if it needs 
-more sweetness, add more maple syrup. If you're not using the sauce 
-right away, let cool and transfer to a covered container. The Maple 
-Barbecue Sauce will keep, covered in the refrigerator, for about 4 days. If 
-serving as a dipping sauce, warm before using.
+Time: 75 min | Smitten Kitchen
+
+### For the chicken:
+
+2 boneless, skinless chicken breasts salt and pepper
+
+1/2 cup all purpose flour
+
+1 large egg white
+
+2 tbsp Dijon mustard (smooth) 2 garlic cloves (minced)
+
+1 tsp dried oregano
+
+1/2 tsp grated lemon zest (fresh) 1 1/2 cups panko
+
+Mix of vegetable/olive oil, for frying
+
+### For the salad:
+
+3 tbsp lemon juice (freshly squeezed, from 1 large lemon) 2 Tbsp. seed (whole-, or coarse Dijon mustard)
+
+1 tbsp Dijon mustard (smooth) 1/4 cup olive oil
+
+5 oz baby arugula Small fennel bulb
+
+1.  Butterfly your chicken breasts, so that you end up with four thin cutlets. Lbs your cutlets out between two pieces of plastic wrap to 1⁄4-inch thickness. Season the chicken on both sides with salt and pepper.
+2.  Grab three big plates, and line them up on your counter. Pour the flour into the first one. In a small dish, whisk together the egg white, smooth Dijon, garlic, oregano, and lemon zest. Pour half of this mixture into the bottom of the second plate. In the third plate, spread out the breadcrumbs. Dredge each piece of chicken lightly in flour, then heavily in the egg-white– mustard mixture, and generously in the breadcrumbs.
+3.  Repeat with second piece of chicken, then refill egg-white–mustard plate, and repeat with final two pieces of chicken. Arrange cutlets on a tray, and chill them in the fridge for 1 hour, or up to 1 day (covered with plastic wrap).
+4.  Preheat your oven to 175. Pour 1⁄2 inch of oil in a large pan and heat over medium-high heat. Test with a flick of water—if it hisses, you’re good to go. Cook the chicken until golden brown (about 3-4 minutes on first and 2-3 minutes on second). Remove the chicken from heat, and salt and pepper on both sides while draining on paper towels. Once it’s drained, transfer to a tray to keep in the warm oven. Repeat with more oil and remaining chicken.
+5.  In a small bowl, whisk lemon juice and mustards together, then whisk in olive oil in a thin stream. Pour three-quarters of this into a large bowl. Add arugula to bowl. Thinly shave your fennel bulb on a mandoline, or cut it as thinly as you can with a sharp knife, and add this to the arugula.
+6.  When you’re ready to serve it, toss the salad. Arrange one piece of chicken from the warm oven on a plate. Drizzle a few drops of the reserved salad dressing directly onto the chicken, and pile the salad on top. Season with salt and pepper, and eat immediately.

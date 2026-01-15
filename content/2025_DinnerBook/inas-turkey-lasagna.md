@@ -2,55 +2,44 @@
 title: "Ina’s Turkey Lasagna"
 originalTitle: "Ina’s Turkey Lasagna"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "pizza and pasta"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Hearty Tomato & Beef Lasagna  
-1 tbsp Olive Oil 
-1 Yellow Onion, Finely chopped 
-6 Large Garlic Cloves, Minced 
-1 lbs Ground Beef 
-1/2 cup Heavy Cream 
-28 oz Crushed Tomatoes (San 
-Marzano) 
-28 oz Diced Tomatoes (San Marzano), 
-drained 
-15 oz Ricotta Cheese 
-1 1/2 cups Freshly Grated Parmesan 
-Cheese, Divided 
-1 cup Fresh Basil Leaves, Chopped 
-1 egg 
-12 No-Boil Lasagna Noodles 
-1 lbs Shredded Mozzarella Cheese 
-1.Preheat the oven to 375 degrees. 
-2.In a large skillet, sweat the onion in the olive oil over medium low heat 
-until translucent and buttery soft, about 10 minutes.  Add in the garlic 
-and cook until fragrant, about a minute more.   
-3.Add the ground beef with about a tsp of salt and freshly ground pepper 
-to the onion mixture and cook, stirring often and breaking up large 
-chunks, until no longer pink.  Add in the cream and simmer until the 
-liquid evaporates. 
-4.Stir in the crushed and diced tomatoes and bring to a simmer.   
-5.In a bowl, combine the ricotta, 1 cup of parmesan cheese, basil and egg.   
-6.In a 9 x 13 glass dish, evenly spread one cup of the meat sauce along the 
-bottom.  Top with three noodles then 1/3 of the cheese mixture.  Sprinkle 
-1/2 cup mozzarella cheese on top.  Repeat this step two more times.  T 
-7.Top with the final three noodles then spread the remaining meat sauce on 
-top.  Sprinkle the rest mozzarella and 1/2 cup of Parmesan cheese on top.   
-8.Spray a piece of foil with nonstick spray and cover the casserole dish. If 
-you plan to freeze the lasagna, stop at this step and allow the lasagna to 
-cool 30 minutes before freezing.   
-9.If enjoying right away, bake covered, for 30 minutes.  Remove the foil and 
-bake about 20-25 minutes more until the top layer of cheese is golden 
-brown, the sauce is bubbling hot and the internal temp is 165 at center.  
-Let the lasagna cool for 15 minutes before slicing and serving. 
-10.If frozen, thaw in the refrigerator for 24-36 hours before baking.  Bake 
-covered in a 375 degree oven for 40-60 minutes depending on how long 
-you thawed the lasagna.  Uncover and bake about 20 minutes more until 
-the sauce is bubbling hot, cheese is golden brown and the temp at the 
-center of the lasagna is at least 165 degrees when taken with a meat 
-thermometer.
+Serves 8 | Total: 1 hr 20 min | Prep: 50 min | Cook: 30 min
+
+2 tablespoons olive oil
+
+1 cup chopped yellow onion (1 onion)
+
+2 garlic cloves, minced
+
+1 1/2 lbs sweet Italian turkey sausage, casings removed
+
+One 28-oz can crushed tomatoes One 6-ounce can tomato paste 1/4 cup chopped fresh flat-leaf parsley, divided
+
+1/2 cup chopped fresh basil leaves
+
+1\. Preheat the oven to 400 degrees F.
+
+2 teaspoons kosher salt
+
+3/4 tsp freshly ground black pepper 1/2 pound lasagna noodles
+
+15 ounces ricotta cheese
+
+3 to 4 oz creamy goat cheese, crumbled
+
+1 cup grated Parmesan, plus 1/4 cup for sprinkling
+
+1 extra-large egg, lightly beaten
+
+1 pound fresh mozzarella, thinly sliced
+
+1.  Heat the olive oil in a large (10 to 12-inch) skillet. Add the onion and cook for 5 minutes over medium-low heat, until translucent. Add the garlic and cook for 1 more minute. Add the sausage and cook over medium-low heat, breaking it up with a fork, for 8 to 10 minutes, or until no longer pink. Add the tomatoes, tomato paste, 2 tablespoons of the parsley, the basil, 1 1/2 teaspoons of the salt, and 1/2 teaspoon pepper. Simmer, uncovered, over medium-low heat, for 15 to 20 minutes, until thickened.
+2.  Meanwhile, fill a large bowl with the hottest tap water. Add the noodles and allow them to sit in the water for 20 minutes. Drain.
+3.  In a medium bowl, combine the ricotta, goat cheese, 1 cup of Parmesan, the egg, the remaining 2 tablespoons of parsley, remaining 1/2 teaspoon salt, and 1/4 teaspoon pepper. Set aside.
+4.  Ladle 1/3 of the sauce into a 9 by 12 by 2-inch rectangular baking dish, spreading the sauce over the bottom of the dish. Then add the layers as follows: half the pasta, half the mozzarella, half the ricotta, and one 1/3 of the sauce. Add the rest of the pasta, mozzarella, ricotta, and finally, sauce. Sprinkle with 1/4 cup of Parmesan. Bake for 30 minutes, until the sauce is bubbling.

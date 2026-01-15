@@ -2,52 +2,50 @@
 title: "Chicken Shawarma"
 originalTitle: "Chicken Shawarma"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "poultry"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Greek Chicken with Cucumber-Feta Salad 
-Time: 30 minutes | New York Times 
-1½ cups plain Greek yogurt 
-3 garlic cloves, finely grated 
-Kosher salt (Diamond Crystal) 
-Black pepper 
-1 tsp dried oregano or mint 
-2 lb boneless, skinless chicken 
-thighs, patted dry 
-1½ lb Persian cucumbers 
-1 lb ripe tomatoes 
-2 tbsps extra-virgin olive oil 
-4 oz feta, crumbled (about ¾ cup) 
-½ cup Kalamata olives, pitted and 
-halved 
-1.In a large bowl, stir together the yogurt and garlic; season to taste with 
-salt and pepper. Transfer ½ cup of the yogurt to a medium bowl and 
-reserve for Step 5. 
-2.Coat the chicken: To the large bowl, add the oregano and stir to 
-combine. Season the chicken all over with 1½ tsps salt and a few grinds 
-of pepper. Add the chicken to the large bowl and turn to coat; set aside. 
-3.Start the salad: Smash the cucumbers with the side of your knife until 
-craggy and split. Rip into ½- to 1-inch pieces and transfer to a colander 
-placed in the sink. Slice or chop the tomatoes into bite-size pieces. Add 
-to the cucumbers along with 1 ½ tsps salt. (It may seem like a lot of salt, 
-but most will drain away.) Toss to combine and leave to drain. 
-4.In a large nonstick or well-seasoned cast-iron skillet, heat the olive oil over 
-medium. Scrape excess marinade off the chicken, then cook the chicken 
-in batches, adding oil to the pan if necessary, until it’s well browned and 
-releases from the pan, 5 to 7 minutes. Flip and cook until cooked 
-through, another 5 to 7 minutes. Transfer to plates to rest.  
-a.To grill the chicken: Heat a grill to medium and clean and grease 
-the grates. Grill the chicken over direct heat until it's well browned 
-and releases from the grates, 5 to 7 minutes. Flip and cook until 
-cooked through, another 5 to 7 minutes. (For a gas grill, close the 
-lid between flips.) 
-5.To the medium bowl of yogurt, add the feta and mash with a fork until a 
-chunky paste forms. Shake the cucumbers and tomatoes to get rid of any 
-excess moisture. Add to the feta yogurt along with the olives and stir until 
-coated. The balance is dependent on your produce and feta, so season 
-to taste with salt and pepper until flavors are vivid. Eat alongside the 
-chicken.
+_Pamela Saltzman_
+
+¼ cup extra-virgin olive oil
+
+¼ cup lemon juice (~2 lemons) 2 tsp kosher salt
+
+2 tsp ground cumin 2 tsp paprika
+
+½ tsp ground turmeric
+
+⅛ tsp ground cinnamon, or more to taste
+
+⅛ tsp cayenne pepper, or
+
+more if you want it to be spicy Several grinds of black pepper 4 garlic cloves, minced
+
+2 lbs boneless, skinless chicken thighs, trimmed of excess fat White sauce (recipe follows) Lavash/Pita
+
+Romaine hearts
+
+1.  Prepare the marinade: Combine all the marinade ingredients in a nonreactive bowl (e.g., glass). Add the chicken and toss to coat. Marinate at room temperature for 1 hour or in the refrigerator for several hours or up to overnight.
+2.  Remove the chicken from the refrigerator 30 minutes before cooking. Preheat the oven to 400F or a heat a grill to medium heat. If you are baking, line a baking sheet with parchment paper.
+3.  Grill until cooked through, about 7 minutes on each side, or bake on the prepared baking sheet for 35 minutes, or until cooked through. If the chicken was baked, you may slice it thinly and sauté the slices in a skillet in coconut oil or olive oil, to get some crispy edges. You don't have to do this step since the chicken is already cooked, but the crispy edges somewhat mimic traditional shawarma shaved off the spit. I also like to sprinkle with a pinch of sea salt, too.
+4.  Slice thinly and serve with your desired accompaniments like lavash, lettuce, tomato, pickled vegetables, onion, olives
+
+⅔ cup plain whole Greek yogurt
+
+½ cup good-quality mayonnaise 3 garlic cloves, minced
+
+1 tbsp freshly squeezed
+
+lemon juice
+
+⅛ tsp sea salt
+
+⅛ tsp paprika
+
+Freshly ground black pepper
+
+1.  Mix all the ingredients together in a bowl, adding black pepper to taste. Refrigerate until ready to serve. Can be made 1 day in advance. Stir before serving.

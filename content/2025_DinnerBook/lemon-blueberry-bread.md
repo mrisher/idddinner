@@ -2,29 +2,30 @@
 title: "Lemon Blueberry Bread"
 originalTitle: "Lemon Blueberry Bread"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "breakfast"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Mike’s Monkey Bread 
-makes a bundt pan or a 9" X 9" casserole dish 
-4 tins Pillsbury biscuits  or 2 tins of 
-Pillsbury Grands  
-½ cup white sugar 
-½ tsp ground cinnamon 
-1½ sticks of butter 
-1 cup brown sugar 
-1 tbsp ground cinnamon 
-Preheat oven to 350 degrees. Grease up a bundt pan or a 9" X 9" casserole 
-dish.  Pam will do, but butter is better. Just pop open tins and cut biscuits them 
-into quarters.  Put those quarter pieces into a bag or bowl with white sugar and 
-1 tsp of cinnamon, shake it all about, and transfer to your dish.   
-Put ¾-cup butter (about 1½ sticks), brown sugar, and 1 tbs of cinnamon into a 
-sauce pan and melt them down into a smooth, uniform caramel sauce.  Pour 
-your sauce over the biscuits; it will be a lot of sauce.  Bake for about 30 minutes 
-(or until it stops expanding and the caramel sets on the outside).  Wait at least 
-10 minutes, then dump out of your dish onto a plate and serve!  If you don't 
-wait, you'll have monkey mess on your hands.
+5 tbsp melted butter 1 cup sugar
+
+1 lemon, zested and juiced
+
+2 eggs
+
+1 1/2 cups all-purpose flour
+
+1 tsp baking powder 1 tsp kosher salt
+
+1/2 cup whole milk 1 cup blueberries
+
+1.  Preheat the oven to 350 degrees. Spray a loaf pan with baking/nonstick spray.
+2.  In a stand mixer fitted with the paddle attachment or large bowl with a wooden spoon, combine the butter, sugar, lemon zest and juice then mix in the eggs.
+3.  In a separate small bowl, sift together 1 1/2 cups of flour, baking powder and salt.
+4.  Add 1/3 of the dry ingredients to the wet ingredients. Once combined, mix in half of the milk followed by another 1/3 of dry ingredients, the other half of the milk and then the rest of the dry ingredients.
+5.  Toss the blueberries in the remaining 2 tbsp of flour then gently fold into the batter.
+6.  Pour the batter into your prepared loaf pan and bake for about one hour, until the top is golden brown, the sides start to pull away from the pan and when a toothpick inserted into the center of the loaf comes out clean.
+7.  Let cool in the pan for 20 minutes before transferring to a wire rack to cool completely.
+8.  If desired, top with a glaze made with 1/4 cup powdered sugar and some lemon juice.

@@ -2,53 +2,35 @@
 title: "Sausage and White Bean Gratin"
 originalTitle: "Sausage and White Bean Gratin"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "pork"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Tonkatsu 
-1 hour | NY Times 
-For the tonkatsu sauce: 
-⅓ cup ketchup 
-¼ cup plus 1 tbsp Worcestershire 
-sauce 
-2 tbsps granulated sugar 
-1 tbsp oyster sauce 
-For the cabbage: 
-4 tbsps Kewpie mayonnaise 
-2 tbsps rice vinegar 
-1 tbsps soy sauce 
-1 tsp toasted sesame oil 
-3 cups shredded green cabbage 
-For the tonkasu: 
-9 (usually 3 per package) boneless 
-pork loin chops, trimmed of excess fat 
-Kosher salt (such as Diamond Crystal) 
-Black pepper 
-1 tbsp vegetable oil, plus more for 
-frying (about 7 cups) 
-1 cup all-purpose flour 
-3 large eggs 
-1 box panko 
-Steamed rice, for serving 
-1.Make the tonkatsu sauce and dressing: In a small bowl, combine the 
-ketchup, Worcestershire, sugar and oyster sauce. In another small bowl, 
-whisk the mayonnaise, rice vinegar, soy sauce and sesame oil. Taste and 
-adjust seasonings, if needed. 
-2.Prepare the tonkatsu: Using a sharp knife, make shallow slits on the pork loin, 
-along the connective tissue, the white thick strip between the fat and the 
-meat. Flip the pork and repeat on the other side. Using a meat mallet, lbs the 
-pork until it’s ¼-inch thick. Lightly season the pork with salt and pepper, 
-being mindful that the tonkatsu sauce is well seasoned. 
-3.In a deep, heavy-bottomed pot, add 2 inches of oil. Heat over medium-high 
-until the temperature reaches 350 degrees. Heat the oven to 200 degrees. 
-Place a wire rack on a sheet pan for the fried pork. (If desired, line the sheet 
-pan with parchment for easier cleanup.) 
-4.Place the flour on a plate. In a shallow dish, like a pie plate, whisk the eggs 
-and 1 tbsp of oil until combined. To a similar size dish, add the panko. Place 
-a second sheet pan or a large plate nearby for the coated pork. 
-5.Coat each piece of pork in the flour, shaking off any excess. Dip in the egg 
-mixture, allowing any excess to drip back into the dish. Finally, coat in the
+½ cup panko breadcrumbs
+
+2 tbsp unsalted butter. melted 2 tbsp olive oil
+
+1 lb sweet Italian sausages, casings removed
+
+1 small yellow onion, chopped 4 garlic cloves, minced
+
+1 heaping tbsp tomato paste
+
+1 scant tbsp fresh thyme or 1 scant tsp dried
+
+½ cup dry white wine 1½ cups chicken broth
+
+2x 15.5-oz cans white beans, such as cannellini or Great Northern, drained and rinsed
+
+Salt & Pepper
+
+4 large handfuls of baby spinach
+
+1.  Preheat the oven to 425°F, with a rack in the middle position. In a small bowl, combine the panko and butter, season with salt, and set aside.
+2.  In a large skillet, heat the oil over high heat until it shimmers. Add the sausages and cook, stirring often and breaking up the meat. until browned about 4 minutes. Leaving as much oil in the pan as possible, transfer the sausage to a medium bowl and set aside.
+3.  Reduce the heat to medium-low, add the onions and garlic and cook, stirring occasionally, until the onions are softened, about 8 minutes. Add the tomato paste and thyme and stir for about 30 seconds. Add the wine and briskly simmer, scraping up any caramelized bits from the bottom of the pan, until almost evaporated, about 2 minutes.
+4.  Add the broth and bring to a simmer, then add the beans, cooked sausage, and any juices. Season with salt and pepper and simmer, stirring occasionally, until heated through and some of the liquid is absorbed, about 5 minutes. The mixture should be wet, but not drowning in liquid. Off the heat, stir in the spinach (if using). Check the seasonings, then transfer the mixture to a 3- quart baking or gratin dish.
+5.  Top evenly with the panko mixture and bake until bubbling and the top is golden brown, about 15 minutes. Let rest for 5 to 10 minutes before serving.

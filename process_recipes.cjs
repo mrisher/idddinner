@@ -364,103 +364,86 @@ async function processPdfExtract() {
 
 
 async function process2025DinnerBook() {
-    console.log('Processing 2025_DinnerBook.pdf...');
-    const pdfPath = path.join(__dirname, 'recipes', '2025_DinnerBook.pdf');
-    if (!fs.existsSync(pdfPath)) return;
+    console.log('Processing 2025_DinnerBook.docx...');
+    const docxPath = path.join(__dirname, 'recipes', '2025_DinnerBook.docx');
+    if (!fs.existsSync(docxPath)) {
+        console.warn('2025_DinnerBook.docx not found, skipping.');
+        return;
+    }
+
+    const outputDir = path.join(CONTENT_DIR, '2025_DinnerBook');
+    // Clean up old files
+    if (fs.existsSync(outputDir)) {
+        fs.rmSync(outputDir, { recursive: true, force: true });
+    }
+    fs.mkdirSync(outputDir, { recursive: true });
 
     try {
-        const dataBuffer = fs.readFileSync(pdfPath);
-        const data = await pdf(dataBuffer);
-        const text = data.text;
+        const result = await mammoth.convertToHtml({ path: docxPath });
+        const html = result.value;
+        const $ = cheerio.load(html);
 
-        // 1. Extract TOC to map Page Numbers -> Titles
-        // TOC format: "Recipe Name <tab/space> PageNum"
-        // Based on sample: "Lemon Blueberry Bread	 4"
-        const tocRegex = /^(.*?)\s+(\d+)$/gm;
-        const pageToTitle = {};
-        let match;
+        // Iterate over top-level elements
+        // Mammoth output is usually flat: <h1>...</h1><p>...</p>
+        const elements = $('body').children().toArray();
 
-        // Limit TOC search to first 2000 chars or so to avoid false positives in body
-        const potentialToc = text.substring(0, 3000);
-        while ((match = tocRegex.exec(potentialToc)) !== null) {
-             const title = match[1].trim();
-             const page = match[2].trim();
-             // Avoid "Section Headers" that might be in TOC if they look like recipes, but logic is fine
-             // If multiple titles map to same page, last one wins or we handle array?
-             // Usually 1 recipe per page in this book.
-             pageToTitle[page] = title;
-        }
+        let currentCategory = '';
+        let currentRecipe = null;
+        let count = 0;
 
-        console.log(`Found ${Object.keys(pageToTitle).length} recipes in TOC.`);
+        const saveCurrentRecipe = () => {
+            if (currentRecipe && currentRecipe.title) {
+                // Convert body elements back to HTML string
+                const bodyHtml = currentRecipe.bodyElements.map(el => $.html(el)).join('\n');
+                const md = turndownService.turndown(bodyHtml);
 
-        // 2. Split by Page Number Delimiters
-        // Content pages are marked by a line containing just the page number, e.g. "\n4\n"
-        // We split by this pattern. Use capturing group to keep the delimiter to know which page it is.
-        const pageSplitRegex = /\n(\d+)\n/g;
-        const parts = text.split(pageSplitRegex);
+                // Add category and source tag
+                const tags = ['2025-dinner-book'];
+                if (currentCategory) tags.push(currentCategory.toLowerCase());
 
-        // parts[0] = Intro/TOC
-        // parts[1] = PageNum 1
-        // parts[2] = Content of Page 1
-        // parts[3] = PageNum 2
-        // ...
+                const { slug, content } = generateMarkdown(
+                    currentRecipe.title,
+                    currentRecipe.title,
+                    '2025 Dinner Book',
+                    [], // Ingredients extraction skipped for now
+                    tags,
+                    md,
+                    ''
+                );
 
-        const outputDir = path.join(CONTENT_DIR, '2025_DinnerBook');
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir, { recursive: true });
-        }
-
-        // Iterate parts starting from index 1 (Page numbers are at odd indices)
-        // Actually, split might look like: [pre, 1, content, 2, content...]
-        for (let i = 1; i < parts.length; i += 2) {
-            const pageNum = parts[i].trim();
-            const contentRaw = parts[i+1];
-
-            if (!pageToTitle[pageNum]) {
-                // If not in TOC, might be section header page or empty. Skip?
-                // Or use a generic name if interesting content found.
-                // For now, skip to match TOC.
-                continue;
+                fs.writeFileSync(path.join(outputDir, `${slug}.md`), content);
+                count++;
             }
+        };
 
-            const title = pageToTitle[pageNum];
-            const cleanBody = contentRaw.trim();
+        for (const el of elements) {
+            const tagName = el.tagName.toLowerCase();
+            const text = $(el).text().trim();
 
-            // Heuristics for Ingredients vs Instructions
-            // Many pages start with Title again.
-            // Then Ingredients list.
-            // Then "1. ..." instructions.
-
-            // Simple split:
-            // Lines starting with numbers or "For the..." or just short lines might be ingredients?
-            // This is hard. Let's dump all as body but try to extract ingredients array if possible.
-            // Heuristic: Filter lines that look like ingredients to populate frontmatter?
-            // Let's stick to full text in body for fidelity, and attempt parse ingredients for search.
-
-            const lines = cleanBody.split('\n').map(l => l.trim()).filter(l => l);
-            const ingredients = [];
-            // Basic ingredients grabber: lines before "1." or "Instructions"?
-            // Let's just pass empty ingredients array to generateMarkdown for now to be safe,
-            // unless we want to try harder.
-            // Better to have the text in the Body than broken frontmatter.
-
-            const { slug, content } = generateMarkdown(
-                title,
-                title,
-                '2025 Dinner Book',
-                [], // ingredients
-                ['dinner-book'],
-                cleanBody,
-                ''
-            );
-
-            fs.writeFileSync(path.join(outputDir, `${slug}.md`), content);
+            if (tagName === 'h1') {
+                saveCurrentRecipe();
+                currentCategory = text;
+                currentRecipe = null;
+            } else if (tagName === 'h2') {
+                saveCurrentRecipe();
+                currentRecipe = {
+                    title: text,
+                    bodyElements: []
+                };
+            } else {
+                // Add content to current recipe
+                if (currentRecipe) {
+                    currentRecipe.bodyElements.push(el);
+                }
+            }
         }
+        // Save the last one
+        saveCurrentRecipe();
 
-        console.log(`Extracted recipes to ${outputDir}`);
+        console.log(`Processed ${count} recipes from 2025_DinnerBook.docx to ${outputDir}`);
 
     } catch (e) {
-        console.error(`Failed to process 2025_DinnerBook.pdf`, e);
+        console.error('Failed to process 2025_DinnerBook.docx', e);
     }
 }
 

@@ -2,45 +2,30 @@
 title: "Orecchiette with Peas & Pancetta"
 originalTitle: "Orecchiette with Peas & Pancetta"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "pizza and pasta"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Fusilli alla Vodka with Basil and Parmesan   
-Jon and Vinny’s 
-1/4 cup olive oil  
-1 small shallot, finely minced 
-1 garlic clove, finely minced 
-1/2 cup tomato paste 
-2 tbsp vodka 
-1 cup heavy cream 
-1 tsp red pepper flakes, or to taste 
-Kosher salt and freshly ground pepper 
-1 lbs fusilli 
-2 tbsp butter 
-1 ounce freshly ground Parmesan 
-cheese, plus more for serving  
-1/4 cup chopped fresh basil 
-  
-1.Heat the olive oil in a large skillet over medium heat. Add the shallot and 
-a pinch of salt and cook, stirring occasionally, until softened, about 5 
-minutes. Add the garlic and cook for 1 minute more, until fragrant. Add 
-the tomato paste and cook, stirring occasionally, until thick, brick-red and 
-starting to caramelize, about 5 minutes. Add the vodka and cook, stirring 
-constantly, until the liquid is mostly evaporated, about 2 minutes. Add the 
-cream and red pepper flakes, stirring to fully combine. Season with salt 
-and pepper to taste.  
-2.While the sauce is cooking, bring a large pot of salted water to a boil over 
-high heat; once boiling, add the fusilli and cook, stirring occasionally, until 
-just shy of al dente according to package directions. Reserve 1 cup of 
-pasta water before draining the pasta.  
-3.Transfer the drained pasta to the skillet with the sauce; add the butter and 
-enough pasta water to thin the sauce slightly. Cook over medium-low 
-heat, stirring constantly, until the sauce thickens and the pasta is al dente, 
-about 2 minutes. Add more pasta water if needed to thin the sauce. 
-Season with salt and pepper and add the 1 ounce of Parmesan cheese, 
-tossing to coat. Serve with additional ground Parmesan and chopped 
-fresh basil.
+~30 min total
+
+1 tbsp olive oil
+
+1 (4-ounce) packages diced pancetta 4-6 cloves garlic, minced
+
+1 cup frozen peas, thawed
+
+1 cup heavy cream
+
+1 cup freshly grated Parmesan cheese 1 lbs box orecchiette pasta
+
+1.  Bring a large pot of water with a tbsp of salt to a boil over high heat.
+2.  While the water comes to a boil, heat a large skillet over medium-low heat. Add the olive oil and diced pancetta. Cook, stirring every couple of minutes, until the fat renders and the pancetta gets crispy and golden brown, about 10 minutes.
+3.  Once crispy, add the minced garlic and cook until fragrant, about a minute.
+4.  Add the peas and cook until they turn bright green, about a minute more. (If you notice the garlic starting to turn more than light golden brown, don’t wait and add the cream now to avoid burning the garlic!)
+5.  Your water should be boiling by now, so add the pasta, give it a good stir to ensure it doesn’t stick to the bottom of the pot and cook according to the package directions. I like to use orecchiette as the peas and pancetta cling to these “little ears” beautifully.
+6.  Next, if you haven't done so already, add the cream to your skillet and bring to a simmer. Once little bubbles start to form around the edges of the skillet, stir in the Parmesan cheese. Add some freshly ground pepper and adjust seasonings to taste. Remember, the pancetta and cheese are both salty, so you may or may not need to add more salt.
+7.  Once your pasta is al dente, use a spider or slotted spoon to transfer the soaking wet pasta to the sauce. You want this extra pasta cooking liquid to help thin the sauce and continue cooking the pasta.
+8.  Stir well to coat the pasta in the sauce. Taste and adjust seasonings to your liking. I usually add some more salt and freshly ground pepper. Let the pasta soak up the sauce a couple minutes before serving.

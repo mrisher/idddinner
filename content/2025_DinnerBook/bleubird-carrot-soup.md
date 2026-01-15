@@ -2,32 +2,29 @@
 title: "Bleubird Carrot Soup"
 originalTitle: "Bleubird Carrot Soup"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "soups"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Curried Lentil Soup 
-2 tbsp olive oil 
-1 brown/yellow onion, diced 
-2 large garlic cloves, minced 
-1 (2 1/2”) piece of ginger, peeled and 
-grated 
-1 tbsp curry powder 
-3/4 cup lentils, sorted and rinsed 
-1 (14.5 oz) can crushed tomatoes 
-1/2 cup chopped cilantro 
-1 (14 oz) can of coconut milk 
-Lime wedges (to serve) 
-kosher salt and pepper, to taste 
-In a large dutch oven, heat the olive oil over medium-low heat.  Add the onion 
-with a pinch of salt and cook until soft and translucent, about 10 minutes. 
-Stir in the garlic, ginger and curry powder.  Cook until fragrant, about a minute 
-more, before stirring in the lentils to coat with the spices.   
-Stir in 2 1/2 cups water, the tomatoes, cilantro, coconut milk, a healthy pinch of 
-salt and some freshly ground pepper.  Bring to a simmer over medium heat. 
-Reduce the heat to low, cover, and simmer for about 25 minutes, stirring 
-occasionally, until the lentils are soft but not mushy.  Taste and adjust seasonings 
-if needed before serving with the lime wedges.
+8-10 unpeeled carrots, washed and sliced
+
+1 large yellow onion, diced
+
+2 cloves of garlic, minced
+
+6 cups of chicken stock _(you can substitute vegetable stock but i prefer using the chicken)_
+
+4 tbsp grape seed oil or butter 1 ½ tsp marjoram
+
+1 ½ tsp parsley 1 tsp thyme
+
+1 ½ tsp dill
+
+½ cup of heavy cream salt & pepper to taste
+
+Heat grape seed oil or butter. Add onion, stirring occasionally until golden. Add garlic and cook for approx. one to two minutes making sure it does not burn.
+
+Add carrots, chicken stock and spices. bring to a low boil and then simmer on low heat for 45 minutes. add heavy cream and let simmer for an additional 15 minutes. Using an immersion blender, puree. salt and pepper to taste. serve hot. Enjoy!

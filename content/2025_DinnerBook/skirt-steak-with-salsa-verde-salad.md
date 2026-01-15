@@ -2,36 +2,43 @@
 title: "Skirt Steak With Salsa Verde Salad"
 originalTitle: "Skirt Steak With Salsa Verde Salad"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "meat"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-Balsamic-Herb Flank Steak 
-1½ lb grass-fed beef flank 
-steak or skirt steak 
-1 tbsp fresh thyme leaves, chopped 
-Ground black pepper 
-Olive oil, for brushing the steak 
-Sea salt, for seasoning steak 
-Post-Marinade 
-2 tbsp balsamic vinegar (not 
-aged balsamic) 
-2 tbsp extra-virgin olive oil 
-2 large garlic cloves, minced 
-Sea salt 
-1.Season the flank steaks with the thyme and black pepper. Cover and 
-refrigerate overnight or all day. 
-2.Prepare the post-marinade: Whisk together vinegar, olive oil, garlic, and a 
-pinch of sea salt and set aside at room temperature. 
-3.Preheat a grill to medium heat, about 400 F. Brush both sides of meat with 
-olive oil and sprinkle with sea salt. 
-4.Grill the meat until desired the doneness is achieved, 3 to 4 minutes on each 
-side for medium, turning with tongs, not a fork. Transfer to a serving platter 
-and pour the post-marinade (below) over the meat. Cover with aluminum foil 
-and allow to rest for 5 to 10 minutes. 
-5.Very important: Transfer the meat to a cutting board and slice thinly against 
-the grain, which means you are cutting in the opposite direction of the lines in 
-the meat. If you cut with the grain. Place back on the platter and serve.
+_Makes: 4 Servings | 35 min, plus marinating | New York Times_
+
+1½ lbs skirt steak
+
+½ c extra-virgin olive oil
+
+¼ c red-wine vinegar
+
+¼ c thinly sliced scallions (about 2) 2 tbsp capers, drained & roughly chopped
+
+1 tbsp minced garlic (2 large cloves)
+
+½ tsp kosher salt, plus more to taste
+
+½ tsp black pepper
+
+2 tbsp chopped fresh flat-leaf parsley
+
+2 tbsp chopped fresh mint
+
+¼ cup toasted pine nuts 2 romaine hearts
+
+½ c crumbled feta (about 3 oz)
+
+If necessary, cut the steak crosswise into large pieces that will fit into a shallow, nonreactive dish. Transfer the steaks to the dish. In a glass measuring cup or bowl, whisk together the olive oil, vinegar, scallions, capers, garlic, ½ tsp salt and ½ tsp pepper. Pour about ⅓ of the dressing (about ⅓ cup) over the steak and turn to coat both sides.
+
+Add the parsley and 1 tbsp mint to the reserved dressing, stir, and set aside until ready to use. Cover and refrigerate the steak for at least 30 minutes or up to 24 hours. (If marinating the steak overnight, cover and refrigerate the reserved dressing.)
+
+In a small sauté pan set over medium heat, toast the pine nuts, tossing often, until golden brown, about 3 minutes. Set aside.
+
+Set the grill to medium-high heat, or heat a grill pan on the stovetop over medium-high. Pat the steaks dry with a paper towel and grill for 3 to 5 minutes on each side for medium-rare. Transfer to a plate, sprinkle with salt, and allow to rest for 10 minutes.
+
+While the steak rests, cut the romaine hearts lengthwise into quarters. Arrange the romaine hearts in one layer on a large platter, leaving room on one side for the steak. Sprinkle the feta, pine nuts and the remaining 1 tbsp mint over the romaine. Slice the steak crosswise into 3-inch pieces, then slice against the grain to cut the steak into wide strips. Arrange the sliced steak on the platter, then drizzle the reserved dressing over the romaine and steak. Serve immediately.

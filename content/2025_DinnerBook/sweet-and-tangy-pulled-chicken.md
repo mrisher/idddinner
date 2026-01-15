@@ -2,41 +2,32 @@
 title: "Sweet and Tangy Pulled Chicken"
 originalTitle: "Sweet and Tangy Pulled Chicken"
 source: "2025 Dinner Book"
-tags: ["dinner-book"]
+tags: ["2025-dinner-book", "crockpot"]
 bg: ""
 summary: ""
 ingredients:
 
 ---
 
-BREAD 
-Quick Bread 
-4 cups flour 
-2 tsp salt 
-1.75 cups luke-warm water 
-2 tsp sugar 
-2 tsp yeast  
-Butter 
-1.1 hour then divide into buttered bowls 
-2.30 min 2nd rise 
-3.Preheat 425° 
-4.15 min bake at 425° 
-5.17 min bake at 375° 
-Almost No Knead Bread 
-15 oz white flour 
-1.5 tsp salt 
-1/4 tsp instant yeast 
-Mix. Then add 
-7 oz water 
-3 oz beer 
-1 tbsp white vinegar 
-Sit at room temp covered for 8 to 18 hours 
-10 folds, (allow knead) then pinch and roll in flour 
-Place on oiled parchment paper in skillet, covered with oiled plastic wrap, for 2 
-hours. 
-Preheat oven to 500 F with dutch oven inside (at least 30 minutes before 
-needed) 
-Dust bread with flour 
-Make decorative slices  
-Add to dutch oven, 30 minutes at 425 with lid on 
-Remove lid for 10 minutes.
+1.  onion chopped
+
+1/4 cup tomato paste
+
+1 tbsp chili powder
+
+2 tsp canola oil 1 tsp paprika
+
+1/8 tsp cayenne pepper
+
+1/4 cup ketchup 2 tbsp molasses
+
+4 boneless skinless chicken breasts Salt and pepper
+
+2 tbsp apple cider vinegar 2 tsp dijon mustard
+
+1.  Microwave onion, tomato paste, chili powder, oil, paprika, and cayenne in bowl, stirring occasionally, until onion is softened, about 5 minutes; transfer to slow cooker. Stir in ketchup and molasses. Season chicken with salt and pepper, place in slow cooker, and turn to coat with sauce. Cover and cook until
+
+chicken registers 160 degrees, 2 to 3 hours on low.
+
+1.  Transfer chicken to carving board, let cool slightly, then shred into bite-size pieces using 2 forks; discard bones.
+2.  Stir vinegar and mustard into sauce. (Adjust sauce consistency with hot water as needed.) Stir in shredded chicken and season with salt and pepper to taste. Serve.
